@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[SL&E/SL&FD]]></name>
+    <description><![CDATA[John W. Young's railroads in the Salt Lake Valley<br>Upper portions based on map of Salt Lake Rock Co., 1888; Sugar House area from ICC Valuation drawing, 1919]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-1581-nodesc-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>1.581</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009900-1581-nodesc-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>2.3715</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009900-1581-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-1581-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-1581-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-1775-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>1.775</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-1775-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.6625</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-1775">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-1775-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-1775-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-1775-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>1.775</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-1775-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.6625</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-1775-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-1775-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-1775-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-1969-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>1.969</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-1969-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.9535</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-1969-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-1969-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-1969-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2163-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.163</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-2163-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.2445</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2163-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.163</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-2163-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.2445</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2163-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2163-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2163-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2356-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-2356-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2356-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.356</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-2356-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.534</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2356-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2356-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2356-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2550-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.55</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-2550-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.825</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2550">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2550-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2550-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2550-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.55</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-2550-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>3.825</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2550-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2550-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2550-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2744-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3F5BA9-2744-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2744-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-2938-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-6633FF-1-114-normal">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>0.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>72ff3366</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-6633FF-1-114-highlight">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>0.0015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>72ff3366</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-6633FF-1-114">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-6633FF-1-114-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-6633FF-1-114-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-6633FF-3000-115-nodesc-normal">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff3366</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-6633FF-3000-115-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3366</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff3366</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-6633FF-3000-115-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-6633FF-3000-115-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-6633FF-3000-115-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Fort Douglas]]></name>
+        <description><![CDATA[D&RGW to 900 South, along 800 South]]></description>
+        <styleUrl>#line-3F5BA9-2163</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.90897,40.75308,0
+            -111.90892,40.7523,0
+            -111.90871,40.75204,0
+            -111.90843,40.75195,0
+            -111.872267,40.751971,0
+            -111.871768,40.751914,0
+            -111.871489,40.751768,0
+            -111.871204,40.751455,0
+            -111.870829,40.750224,0
+            -111.870657,40.749964,0
+            -111.870067,40.749797,0
+            -111.869037,40.749789,0
+            -111.867744,40.749793,0
+            -111.865947,40.749789,0
+            -111.863962,40.749785,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Mainline]]></name>
+        <styleUrl>#line-009900-1581-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.909056,40.75597,0
+            -111.90897,40.747289,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SL&FD Shops]]></name>
+        <description><![CDATA[Between "Fourth West" and "Fifth West", just south of 8th South; fills north half of entire block between "Fourth West" and D&RGW tracks.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.906111,40.751467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Central Railway</name>
+        <description><![CDATA[Along "Fourth West" between 8th South and 3rd South, connecting with SL&FD at 8th South]]></description>
+        <styleUrl>#line-3F5BA9-1775</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.905381,40.752008,0
+            -111.905454,40.762785,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Fort Douglas Ry]]></name>
+        <description><![CDATA[Salt Lake City (900 South) to 1st and 'T' Street]]></description>
+        <styleUrl>#line-3F5BA9-2356</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.85407,40.76932,0
+            -111.85425,40.76812,0
+            -111.8547,40.76716,0
+            -111.85519,40.76659,0
+            -111.85608,40.76573,0
+            -111.85735,40.76438,0
+            -111.85848,40.76355,0
+            -111.85941,40.76299,0
+            -111.86021,40.7623,0
+            -111.86137,40.761,0
+            -111.8618,40.76043,0
+            -111.86212,40.75952,0
+            -111.86233,40.7584,0
+            -111.86235,40.75644,0
+            -111.86248,40.75514,0
+            -111.86246,40.7527,0
+            -111.861913,40.751532,0
+            -111.861661,40.750829,0
+            -111.861479,40.750301,0
+            -111.861506,40.750102,0
+            -111.861661,40.74996,0
+            -111.861817,40.749899,0
+            -111.861983,40.749862,0
+            -111.862214,40.749809,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fill and Trestle</name>
+        <description>Needed to climb the bench; trestle demolished in May 1897</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.862337,40.754178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SL&FD to Red Butte Canyon]]></name>
+        <description><![CDATA[1st and 'T' Street to Fort Douglas to Red Butte Canyon]]></description>
+        <styleUrl>#line-3F5BA9-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.85406,40.769411,0
+            -111.853888,40.769979,0
+            -111.853684,40.770288,0
+            -111.853352,40.770434,0
+            -111.85288,40.770499,0
+            -111.852332,40.770418,0
+            -111.85215,40.770239,0
+            -111.85201,40.770101,0
+            -111.851925,40.769882,0
+            -111.851764,40.769313,0
+            -111.851538,40.768541,0
+            -111.851152,40.76798,0
+            -111.849875,40.766859,0
+            -111.846528,40.763674,0
+            -111.842666,40.760488,0
+            -111.839833,40.759383,0
+            -111.8368181,40.7591799,0
+            -111.8342274,40.7590745,0
+            -111.8330769,40.7592107,0
+            -111.8319372,40.7594769,0
+            -111.8290559,40.7617805,0
+            -111.8280641,40.7633973,0
+            -111.8277527,40.7641446,0
+            -111.8265294,40.7659169,0
+            -111.8255034,40.7674131,0
+            -111.82511,40.76788,0
+            -111.82352,40.76923,0
+            -111.822131,40.770264,0
+            -111.819416,40.774204,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lincoln Park Junction</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.862804,40.749868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dry Canyon Branch</name>
+        <styleUrl>#line-3F5BA9-2163-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.833568,40.781126,0
+            -111.835885,40.779339,0
+            -111.838074,40.777064,0
+            -111.840799,40.775326,0
+            -111.843781,40.773652,0
+            -111.846657,40.773067,0
+            -111.848845,40.773197,0
+            -111.85009,40.773489,0
+            -111.851206,40.773554,0
+            -111.852536,40.772969,0
+            -111.85288,40.772336,0
+            -111.853008,40.771734,0
+            -111.852668,40.770979,0
+            -111.852354,40.770516,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Popperton Park Line
+</name>
+        <styleUrl>#line-3F5BA9-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.847,40.778494,0
+            -111.845884,40.776122,0
+            -111.845198,40.774789,0
+            -111.845455,40.773717,0
+            -111.845927,40.773359,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red Butte Canyon Quarries</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.81933,40.774399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emmigration Canyon Line</name>
+        <styleUrl>#line-3F5BA9-2163-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8303328,40.7607076,0
+            -111.829333,40.7612123,0
+            -111.8285087,40.7613111,0
+            -111.8277696,40.7611189,0
+            -111.8272022,40.7608049,0
+            -111.8237181,40.7570642,0
+            -111.823207,40.7559063,0
+            -111.8224974,40.7548479,0
+            -111.8212836,40.7535173,0
+            -111.8197426,40.7526682,0
+            -111.8170549,40.7517424,0
+            -111.8116873,40.7504455,0
+            -111.8103414,40.7501871,0
+            -111.8092099,40.7501968,0
+            -111.8081326,40.7502489,0
+            -111.8076448,40.7502739,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Commemoration Plaque</name>
+        <description>Roadbed segment with short track segment placed in 2002</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8219165,40.7544783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wagener's Brewery]]></name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8093469,40.7508369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Eastern Ry]]></name>
+        <description><![CDATA[900 South to Sugar House; the SL&E generally followed the Jordan & Salt Lake Canal, either its west bank or its east bank.]]></description>
+        <styleUrl>#line-3F5BA9-1775</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.86393,40.74978,0
+            -111.86174,40.74977,0
+            -111.86144,40.74968,0
+            -111.86129,40.74953,0
+            -111.86118,40.74851,0
+            -111.86121,40.74787,0
+            -111.86135,40.74712,0
+            -111.86141,40.74443,0
+            -111.8613,40.74406,0
+            -111.86052,40.74283,0
+            -111.85961,40.74171,0
+            -111.85851,40.741,0
+            -111.85753,40.74003,0
+            -111.85712,40.73826,0
+            -111.85653,40.73658,0
+            -111.85667,40.73578,0
+            -111.85703,40.73458,0
+            -111.8573,40.73398,0
+            -111.85769,40.73332,0
+            -111.85792,40.73303,0
+            -111.85885,40.73247,0
+            -111.86004,40.73161,0
+            -111.86027,40.73132,0
+            -111.86077,40.73033,0
+            -111.86091,40.72982,0
+            -111.86045,40.72819,0
+            -111.860057,40.727137,0
+            -111.859652,40.726305,0
+            -111.859608,40.726086,0
+            -111.8596019,40.7254819,0
+            -111.85953,40.72532,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Eastern Ry]]></name>
+        <description>Sugarhouse to Parleys Canyon</description>
+        <styleUrl>#line-3F5BA9-2163</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.851957,40.722695,0
+            -111.849747,40.722397,0
+            -111.847343,40.721892,0
+            -111.846077,40.721421,0
+            -111.844254,40.72051,0
+            -111.842322,40.719502,0
+            -111.84026,40.71877,0
+            -111.825113,40.713858,0
+            -111.824191,40.713647,0
+            -111.823311,40.713631,0
+            -111.81711,40.713598,0
+            -111.81588,40.71343,0
+            -111.810962,40.711801,0
+            -111.804954,40.709987,0
+            -111.80262,40.70959,0
+            -111.800866,40.709515,0
+            -111.799471,40.709459,0
+            -111.798227,40.709345,0
+            -111.796929,40.70941,0
+            -111.796038,40.709857,0
+            -111.79503,40.710548,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Eastern Ry]]></name>
+        <description><![CDATA[Sugar House to Millcreek; generally followed the Jordan & Salt Lake Canal; realigned along 1100 East to become D&RGW's Interstate Brick Spur]]></description>
+        <styleUrl>#line-3F5BA9-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.861,40.7227,0
+            -111.86012,40.72264,0
+            -111.85975,40.72257,0
+            -111.85948,40.72242,0
+            -111.85902,40.72193,0
+            -111.85864,40.72092,0
+            -111.858265,40.720494,0
+            -111.8581,40.7202,0
+            -111.85799,40.71995,0
+            -111.85797,40.71964,0
+            -111.85812,40.71788,0
+            -111.85829,40.71638,0
+            -111.85842,40.7158,0
+            -111.85814,40.71499,0
+            -111.85746,40.71415,0
+            -111.85711,40.71346,0
+            -111.85712,40.71313,0
+            -111.85736,40.71139,0
+            -111.85781,40.71064,0
+            -111.85837,40.70994,0
+            -111.85886,40.70919,0
+            -111.8588,40.70839,0
+            -111.85873,40.70795,0
+            -111.85855,40.70756,0
+            -111.85791,40.70649,0
+            -111.85721,40.70496,0
+            -111.85605,40.70367,0
+            -111.85588,40.70335,0
+            -111.85627,40.70005,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Red Butte Canyon</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.821594,40.770142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah State Penitentiary</name>
+        <description>Located at about 2100 South and 1400 East; opened in 1855, closed in 1951.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.85039,40.725307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penitentiary</name>
+        <styleUrl>#poly-6633FF-3000-115-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -111.851111,40.725633,0
+                -111.851088,40.724868,0
+                -111.8498,40.724885,0
+                -111.848706,40.724885,0
+                -111.848695,40.72525,0
+                -111.848706,40.725641,0
+                -111.851111,40.725633,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sugar Mill</name>
+        <description>Site of original sugar mill, later an engine house for Utah Central, and later a coal yard.</description>
+        <styleUrl>#poly-6633FF-1-114</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -111.8593939,40.7253399,0
+                -111.8593933,40.725248,0
+                -111.8590613,40.7252459,0
+                -111.8590627,40.7253384,0
+                -111.8593939,40.7253399,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sugar Mill</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8589681,40.7253237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Interstate brick Spur]]></name>
+        <description>Location from USGS topo map</description>
+        <styleUrl>#line-3F5BA9-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.858469,40.715655,0
+            -111.858984,40.712825,0
+            -111.85936,40.712085,0
+            -111.859585,40.711597,0
+            -111.85966,40.707865,0
+            -111.85966,40.704058,0
+            -111.859317,40.702928,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake & Eastern (original line in Sugar House)
+]]></name>
+        <description>Original pre-1900 line</description>
+        <styleUrl>#line-3F5BA9-2163</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.857439,40.724468,0
+            -111.85406,40.724421,0
+            -111.853303,40.724356,0
+            -111.852542,40.724259,0
+            -111.851555,40.724141,0
+            -111.850305,40.723893,0
+            -111.84685,40.722949,0
+            -111.842408,40.720169,0
+            -111.840692,40.719063,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Penitentiary spur</name>
+        <styleUrl>#line-3F5BA9-2356-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.851903,40.722718,0
+            -111.852783,40.723063,0
+            -111.852998,40.723405,0
+            -111.853051,40.723754,0
+            -111.852987,40.724145,0
+            -111.852536,40.724462,0
+            -111.851828,40.724665,0
+            -111.85068,40.72469,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SL&E Main Line to Parleys
+]]></name>
+        <styleUrl>#line-3F5BA9-2163-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.85951,40.7253,0
+            -111.859408,40.725135,0
+            -111.859035,40.724795,0
+            -111.858585,40.724551,0
+            -111.858005,40.724472,0
+            -111.857463,40.724458,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sugar House spur</name>
+        <styleUrl>#line-3F5BA9-1775-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8587,40.7253,0
+            -111.85863,40.72498,0
+            -111.857826,40.724592,0
+            -111.857166,40.724494,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hygeia Ice spur</name>
+        <styleUrl>#line-3F5BA9-2163-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.856946,40.725287,0
+            -111.857032,40.725072,0
+            -111.857107,40.724815,0
+            -111.856828,40.724608,0
+            -111.856168,40.724486,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wye</name>
+        <styleUrl>#line-3F5BA9-2550-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.85375,40.724348,0
+            -111.853353,40.724258,0
+            -111.853182,40.72408,0
+            -111.853074,40.723901,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[SL&E / UC / RGW connection]]></name>
+        <description>Connection after 1900 to access Sugar House spurs from line to Roper</description>
+        <styleUrl>#line-3F5BA9-2356</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.85838,40.72277,0
+            -111.85868,40.7228,0
+            -111.85886,40.72289,0
+            -111.85936,40.72395,0
+            -111.85946,40.72424,0
+            -111.859556,40.724781,0
+            -111.8596252,40.7254483,0
+            -111.8596301,40.726143,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sugar House Wye Track</name>
+        <styleUrl>#line-3F5BA9-2550-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.858057,40.72446,0
+            -111.858392,40.724454,0
+            -111.858738,40.724405,0
+            -111.859054,40.724295,0
+            -111.859304,40.724076,0
+            -111.85932,40.723929,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Sugarhouse Branch]]></name>
+        <description><![CDATA[From Roper, replaced SL&E/Utah Central line in 1900]]></description>
+        <styleUrl>#line-3F5BA9-2550</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.9085,40.72543,0
+            -111.90842,40.72469,0
+            -111.90783,40.72354,0
+            -111.9071,40.72291,0
+            -111.90662,40.72265,0
+            -111.90612,40.72248,0
+            -111.9053,40.72234,0
+            -111.8764,40.72227,0
+            -111.87509,40.72229,0
+            -111.87439,40.72234,0
+            -111.87213,40.72271,0
+            -111.87128,40.72277,0
+            -111.853126,40.722762,0
+            -111.851989,40.722697,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fort Douglas Wye</name>
+        <styleUrl>#line-3F5BA9-2744-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8303882,40.7607413,0
+            -111.8301308,40.7613264,0
+            -111.8300288,40.762074,0
+            -111.8302273,40.7624235,0
+            -111.8316167,40.7640243,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fort Douglas Spur</name>
+        <styleUrl>#line-3F5BA9-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8313341,40.7636829,0
+            -111.8312643,40.7633904,0
+            -111.8313207,40.7632319,0
+            -111.8314092,40.7630653,0
+            -111.8315594,40.762915,0
+            -111.8317847,40.7627118,0
+            -111.832879,40.762082,0
+            -111.8332277,40.7620394,0
+            -111.8335549,40.7620617,0
+            -111.833909,40.7622486,0
+            -111.8344025,40.7627687,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fort Douglas Wye</name>
+        <styleUrl>#line-3F5BA9-1969-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8317042,40.7627321,0
+            -111.8313877,40.7628419,0
+            -111.8310873,40.7628947,0
+            -111.830862,40.7628947,0
+            -111.8307279,40.76285,0
+            -111.8305187,40.7627362,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

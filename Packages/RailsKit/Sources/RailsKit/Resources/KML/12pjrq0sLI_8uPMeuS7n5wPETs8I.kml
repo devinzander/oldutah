@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[D&RGW Lake Park Spur]]></name>
+    <description><![CDATA[Farmington, Utah<br>More info: http://www.utahrails.net/utahrails/lake-park-resort.php]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009900-5000-normal">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-009900-5000-highlight">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-009900-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009900-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009900-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC33CC-5000-normal">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC33CC-5000-highlight">
+      <LineStyle>
+        <color>ffcc33cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC33CC-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC33CC-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC33CC-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Lake Park Spur</name>
+        <description>Completed in 1886; abandoned in 1925</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.91706,40.98412,0
+            -111.9168,40.98339,0
+            -111.91697,40.98292,0
+            -111.91764,40.98235,0
+            -111.91844,40.98217,0
+            -111.93638,40.9822,0
+            -111.937541,40.981963,0
+            -111.938775,40.98151,0
+            -111.939451,40.981073,0
+            -111.939837,40.980603,0
+            -111.940084,40.979906,0
+            -111.940041,40.978286,0
+            -111.940094,40.976545,0
+            -111.940094,40.975937,0
+            -111.939751,40.974641,0
+            -111.939182,40.972956,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Park Resort</name>
+        <description>Opened in July 1886; closed in 1896, buildings moved to create Lagoon Resort</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.940298,40.977735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW mainline]]></name>
+        <description>Salt Lake City to Ogden, completed in May 1883</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.921075,40.988629,0
+            -111.911677,40.978294,0
+            -111.911655,40.978294,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lake Park Junction</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.916523,40.984239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turnback Circle</name>
+        <description>As described in Salt Lake Tribune, June 19, 1887</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.939912,40.980109,0
+            -111.939837,40.979615,0
+            -111.939579,40.979112,0
+            -111.939064,40.978707,0
+            -111.938657,40.978464,0
+            -111.937938,40.978011,0
+            -111.937326,40.977509,0
+            -111.937219,40.977128,0
+            -111.937262,40.976755,0
+            -111.937562,40.976334,0
+            -111.937777,40.976132,0
+            -111.938131,40.975986,0
+            -111.938785,40.975848,0
+            -111.93929,40.975913,0
+            -111.939751,40.976213,0
+            -111.940008,40.976739,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Utah Central (UP)</name>
+        <description>Completed in 1870</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.914978,40.994217,0
+            -111.907554,40.989585,0
+            -111.902447,40.986345,0
+            -111.900086,40.98466,0
+            -111.898799,40.982749,0
+            -111.897254,40.97925,0
+            -111.895881,40.975686,0
+            -111.894636,40.972446,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bamberger</name>
+        <description>Completed in 1895</description>
+        <styleUrl>#line-009900-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.895795,40.996678,0
+            -111.893177,40.99169,0
+            -111.892405,40.989876,0
+            -111.892104,40.987544,0
+            -111.89189,40.981421,0
+            -111.89189,40.97682,0
+            -111.891847,40.974714,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lagoon Resort</name>
+        <description>Opened in 1896.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.89352,40.985503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Central (UP) depot site</name>
+        <description>At crossing of Clark Lane.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.898005,40.981461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bamberger depot</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.891675,40.980732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clark Lane</name>
+        <description>Prior to construction of I-15 in 1963.</description>
+        <styleUrl>#line-CC33CC-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.912382,40.982044,0
+            -111.897093,40.98204,0
+            -111.89668,40.982036,0
+            -111.896471,40.981955,0
+            -111.896256,40.9817,0
+            -111.896197,40.980562,0
+            -111.886833,40.980514,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

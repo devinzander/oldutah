@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Grant Tower Area, Salt Lake City</name>
+    <description/>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-5000-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-CC0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-CC0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFCC00-5000-normal">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFCC00-5000-highlight">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFCC00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFCC00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFCC00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Jordan River</name>
+        <description><![CDATA[Ownership of WP/LA&SL reversed south to north track, and north to south track.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.926286,40.767607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WP-UP Junction</name>
+        <description>Added in 1967 to replace the Navajo Street diamond crossing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.924409,40.767964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saltair Route</name>
+        <description><![CDATA[Salt Lake Garfield & Western]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.92016,40.76937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[UP-LA&SL]]></name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.91515,40.769329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WP</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.915321,40.768338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grant Tower building</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.905719,40.769671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WP Freight Lead</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.911609,40.767948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WP-UP Junction</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.92586,40.76792,0
+            -111.925613,40.767924,0
+            -111.925366,40.767917,0
+            -111.924878,40.767895,0
+            -111.924572,40.767889,0
+            -111.924267,40.767899,0
+            -111.92395,40.767938,0
+            -111.92311,40.768112,0
+            -111.922512,40.768251,0
+            -111.922274,40.768316,0
+            -111.92104,40.76876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>WP Passenger Main</name>
+        <description>Removed in about 1984</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.912832,40.768401,0
+            -111.90722,40.76837,0
+            -111.90688,40.76834,0
+            -111.90655,40.76826,0
+            -111.906352,40.768167,0
+            -111.906154,40.76807,0
+            -111.905982,40.767948,0
+            -111.90584,40.76783,0
+            -111.90567,40.76763,0
+            -111.90556,40.76731,0
+            -111.9055,40.76466,0
+            -111.90537,40.76425,0
+            -111.90516,40.76388,0
+            -111.90508,40.76345,0
+            -111.90507,40.76252,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UP Provo Sub</name>
+        <description>Original Utah Southern line built in 1871</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.91589,40.76938,0
+            -111.90703,40.7693,0
+            -111.90634,40.76922,0
+            -111.90599,40.76912,0
+            -111.90567,40.76894,0
+            -111.90542,40.76871,0
+            -111.905386,40.767952,0
+            -111.90536,40.767574,0
+            -111.905295,40.7672,0
+            -111.905048,40.766766,0
+            -111.903428,40.765279,0
+            -111.903064,40.764901,0
+            -111.902763,40.764527,0
+            -111.902624,40.764198,0
+            -111.90256,40.76369,0
+            -111.90256,40.76311,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>End of WP Track</name>
+        <description>West curb line of Fourth West (500 West)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.905628,40.767538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OSL Provo Sub</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.905309,40.772862,0
+            -111.905314,40.77158,0
+            -111.905403,40.768651,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL North Wye</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.905386,40.770808,0
+            -111.905537,40.770475,0
+            -111.905692,40.770235,0
+            -111.90588,40.770024,0
+            -111.906068,40.769853,0
+            -111.906255,40.769723,0
+            -111.906551,40.769585,0
+            -111.906867,40.769455,0
+            -111.907205,40.769394,0
+            -111.90743,40.769358,0
+            -111.90764,40.769325,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Wye]]></name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.90536,40.772841,0
+            -111.90536,40.772596,0
+            -111.905356,40.772472,0
+            -111.90536,40.772299,0
+            -111.905376,40.772061,0
+            -111.905397,40.77192,0
+            -111.905435,40.771779,0
+            -111.905527,40.771549,0
+            -111.905759,40.77125,0
+            -111.906109,40.770898,0
+            -111.906749,40.770264,0
+            -111.906937,40.770079,0
+            -111.907142,40.769896,0
+            -111.907375,40.769738,0
+            -111.907501,40.769665,0
+            -111.907635,40.769598,0
+            -111.907858,40.769506,0
+            -111.90809,40.769427,0
+            -111.908326,40.769371,0
+            -111.908523,40.769342,0
+            -111.908718,40.769328,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Ogden Sub]]></name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.909331,40.769312,0
+            -111.909526,40.769297,0
+            -111.909724,40.769269,0
+            -111.909871,40.769236,0
+            -111.910145,40.769142,0
+            -111.910365,40.769049,0
+            -111.910617,40.768878,0
+            -111.910783,40.76872,0
+            -111.910923,40.768525,0
+            -111.911035,40.768273,0
+            -111.911078,40.768045,0
+            -111.911105,40.76781,0
+            -111.911116,40.767586,0
+            -111.911126,40.767359,0
+            -111.911126,40.767127,0
+            -111.911142,40.766892,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Interlocking]]></name>
+        <description><![CDATA[Site of former D&RGW interlocking plant at 700 West and South Temple]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.910944,40.769183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Old D&RGW Ogden Main]]></name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.914018,40.793372,0
+            -111.912752,40.790793,0
+            -111.912419,40.789989,0
+            -111.911411,40.787499,0
+            -111.911234,40.786886,0
+            -111.911153,40.786569,0
+            -111.911121,40.786269,0
+            -111.911073,40.776764,0
+            -111.911057,40.772376,0
+            -111.911148,40.768009,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pollard Junction</name>
+        <description><![CDATA[WP connection to D&RGW Ogden Main]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.912763,40.76846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Connection</name>
+        <description>Built after 1983 merger of WP and UP</description>
+        <styleUrl>#line-FFCC00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.91008,40.768797,0
+            -111.910456,40.768675,0
+            -111.910735,40.768606,0
+            -111.911041,40.768537,0
+            -111.911379,40.768472,0
+            -111.911679,40.768435,0
+            -111.911979,40.768419,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>WP mainline before 1967 line change
+</name>
+        <styleUrl>#line-CC0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.969459,40.761203,0
+            -111.949879,40.764511,0
+            -111.929226,40.767607,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Original WP mainline</name>
+        <description>Before the 1967 shared track agreement; crossed OSL via a diamond crossing controlled by a manual interlocking</description>
+        <styleUrl>#line-CC0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.925524,40.76798,0
+            -111.921244,40.768403,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>WP/OSL crossing</name>
+        <description>1100 West</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.922381,40.768403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orange Street Crossovers</name>
+        <description>Moved from WP-UP Junction after the 1983 merger of UP and WP.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9455928,40.7619632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navajo Street Crossing</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9295236,40.7675864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

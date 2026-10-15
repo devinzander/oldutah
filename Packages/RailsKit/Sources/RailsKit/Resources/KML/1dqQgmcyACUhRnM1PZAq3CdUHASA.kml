@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Spring Canyon, D&RGW-Utah Ry.]]></name>
+    <description><![CDATA[Utah Ry. and D&RGW in Spring Canyon, Utah; includes coal mines]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000099-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000099-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000099-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000099-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000099-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3333FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3333FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff3333</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3333FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3333FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3333FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-33CC00-5000-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF6600-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF6600-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF6600-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF6600-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF6600-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Martin</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.871727,39.702465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin to Spring Canyon</name>
+        <styleUrl>#line-000099-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.8722,39.70243,0
+            -110.87199,39.69955,0
+            -110.87178,39.69781,0
+            -110.87138,39.69623,0
+            -110.87004,39.69259,0
+            -110.86947,39.6916,0
+            -110.86871,39.6908,0
+            -110.86817,39.69004,0
+            -110.86805,39.68965,0
+            -110.86819,39.68892,0
+            -110.86864,39.6882,0
+            -110.86906,39.68784,0
+            -110.87016,39.68748,0
+            -110.874796,39.687036,0
+            -110.878267,39.686797,0
+            -110.878674,39.686718,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.86808,39.688152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Canyon Jct.</name>
+        <description>Connection with Utah Terminal Railroad (Spring Canyon Branch)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.878784,39.686821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Ry Spring Canyon Branch</name>
+        <description>Jacobs to Standardville</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.878556,39.686776,0
+            -110.879232,39.686768,0
+            -110.87976,39.6869,0
+            -110.88021,39.68714,0
+            -110.88136,39.68864,0
+            -110.88179,39.68906,0
+            -110.88229,39.68936,0
+            -110.88318,39.68964,0
+            -110.88414,39.68965,0
+            -110.88538,39.68957,0
+            -110.88623,39.68965,0
+            -110.88829,39.69015,0
+            -110.88909,39.6902,0
+            -110.88987,39.68996,0
+            -110.89073,39.6893,0
+            -110.89151,39.68888,0
+            -110.89232,39.68883,0
+            -110.89351,39.68912,0
+            -110.89408,39.68915,0
+            -110.89483,39.68904,0
+            -110.89518,39.6888,0
+            -110.89569,39.6883,0
+            -110.89615,39.68809,0
+            -110.89669,39.68798,0
+            -110.89856,39.6879,0
+            -110.89985,39.68829,0
+            -110.90196,39.68904,0
+            -110.90596,39.69178,0
+            -110.90833,39.693,0
+            -110.91188,39.69427,0
+            -110.91313,39.69459,0
+            -110.91496,39.69522,0
+            -110.91555,39.69564,0
+            -110.91674,39.69735,0
+            -110.9171,39.69797,0
+            -110.91741,39.69895,0
+            -110.91807,39.69959,0
+            -110.91895,39.69995,0
+            -110.91974,39.70018,0
+            -110.92073,39.70026,0
+            -110.9217,39.70008,0
+            -110.92301,39.69947,0
+            -110.92359,39.69891,0
+            -110.92411,39.69794,0
+            -110.92482,39.69733,0
+            -110.92565,39.69704,0
+            -110.92674,39.69686,0
+            -110.92835,39.69688,0
+            -110.92992,39.69726,0
+            -110.93153,39.69817,0
+            -110.93351,39.69942,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Utah Ry Mainline</name>
+        <styleUrl>#line-3333FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.878744,39.686689,0
+            -110.879356,39.686458,0
+            -110.879881,39.68621,0
+            -110.880407,39.685802,0
+            -110.880734,39.685459,0
+            -110.881185,39.684654,0
+            -110.881909,39.682949,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Spring Canyon Branch]]></name>
+        <styleUrl>#line-FF6600-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.863808,39.695591,0
+            -110.863487,39.695309,0
+            -110.863228,39.694859,0
+            -110.863121,39.694389,0
+            -110.863029,39.693378,0
+            -110.862801,39.691921,0
+            -110.862839,39.68829,0
+            -110.862961,39.687801,0
+            -110.863281,39.68705,0
+            -110.86377,39.686588,0
+            -110.865143,39.685799,0
+            -110.866089,39.685532,0
+            -110.866638,39.68541,0
+            -110.867157,39.68544,0
+            -110.868858,39.685879,0
+            -110.869797,39.686031,0
+            -110.871193,39.686192,0
+            -110.874283,39.68597,0
+            -110.87719,39.685921,0
+            -110.87851,39.686031,0
+            -110.879646,39.68642,0
+            -110.881126,39.68705,0
+            -110.883324,39.687672,0
+            -110.88459,39.68787,0
+            -110.885689,39.68821,0
+            -110.886627,39.68898,0
+            -110.887543,39.689522,0
+            -110.888809,39.68969,0
+            -110.890182,39.689251,0
+            -110.891281,39.688568,0
+            -110.89164,39.68829,0
+            -110.892471,39.688049,0
+            -110.893677,39.688049,0
+            -110.895271,39.68763,0
+            -110.896812,39.686939,0
+            -110.897842,39.686668,0
+            -110.89933,39.686981,0
+            -110.90094,39.687611,0
+            -110.902069,39.688358,0
+            -110.90361,39.688961,0
+            -110.904869,39.689671,0
+            -110.906929,39.690708,0
+            -110.909409,39.69244,0
+            -110.910507,39.69334,0
+            -110.91124,39.693607,0
+            -110.912086,39.693848,0
+            -110.912979,39.694054,0
+            -110.913948,39.694359,0
+            -110.914856,39.694729,0
+            -110.915428,39.695068,0
+            -110.918312,39.698502,0
+            -110.918839,39.698963,0
+            -110.920197,39.699402,0
+            -110.921371,39.699329,0
+            -110.922302,39.698734,0
+            -110.922699,39.697891,0
+            -110.922989,39.697365,0
+            -110.923576,39.696941,0
+            -110.924873,39.696651,0
+            -110.926567,39.69632,0
+            -110.927536,39.69611,0
+            -110.928528,39.696003,0
+            -110.929459,39.696239,0
+            -110.931267,39.697571,0
+            -110.933807,39.699409,0
+            -110.935654,39.699532,0
+            -110.937225,39.699757,0
+            -110.938889,39.700321,0
+            -110.94059,39.701591,0
+            -110.942398,39.702499,0
+            -110.944382,39.70306,0
+            -110.945442,39.703075,0
+            -110.946404,39.703259,0
+            -110.948441,39.703972,0
+            -110.953392,39.705921,0
+            -110.954201,39.7062,0
+            -110.955009,39.706791,0
+            -110.955208,39.70792,0
+            -110.955017,39.70924,0
+            -110.955856,39.710361,0
+            -110.957771,39.71059,0
+            -110.959671,39.710381,0
+            -110.961143,39.70982,0
+            -110.962952,39.709282,0
+            -110.964813,39.70956,0
+            -110.965248,39.709686,0
+            -110.966454,39.70969,0
+            -110.969208,39.70887,0
+            -110.969238,39.708889,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Jacobs</name>
+        <description>Utah Ry</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.878369,39.686854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peerless Loadout</name>
+        <description>Peerless Coal Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.911255,39.694515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Canyon Loadout (Storrs)</name>
+        <description>Spring Canyon Coal Company, also known as Storrs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.919243,39.699585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Standardville Loadout</name>
+        <description>Standard Coal Company, Standardville</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.933067,39.699501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Standard Tramway</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.93563,39.71038,0
+            -110.932308,39.699556,0
+            -110.932354,39.699256,0
+            -110.932416,39.698998,0
+            -110.932517,39.69891,0
+            -110.932617,39.698928,0
+            -110.932713,39.699011,0
+            -110.932783,39.699081,0
+            -110.93277,39.699182,0
+            -110.932627,39.699267,0
+            -110.932453,39.699376,0
+            -110.932351,39.699506,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Latuda Loadout</name>
+        <description>Liberty Fuel Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.954491,39.705585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rains Loadout</name>
+        <description>Carbon Fuel Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.960358,39.710621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mutual Loadout</name>
+        <description>Mutual Coal Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.965462,39.710239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Original Spring Canyon Coal Co. opening</name>
+        <description>Aerial tram from mine, down to loadout; replaced by underground tunnel</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.920895,39.707843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Canyon aerial tram</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.920051,39.707914,0
+            -110.918676,39.69995,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Spring Canyon mine</name>
+        <description>Underground tunnel, replaced aerial tramway</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.918622,39.700509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peerless Mine</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.908978,39.704281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peerless Tram</name>
+        <description>Inclined tramway, Peerless mine to Peerless loadout</description>
+        <styleUrl>#line-33CC00-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.90911,39.703786,0
+            -110.911728,39.694375,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

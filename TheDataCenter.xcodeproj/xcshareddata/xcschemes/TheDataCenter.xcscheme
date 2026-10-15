@@ -3,7 +3,7 @@
    <BuildAction parallelizeBuildables = "YES" buildImplicitDependencies = "YES" buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-            <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "The Data Center.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
+            <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "Old Utah.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
@@ -12,12 +12,12 @@
    </TestAction>
    <LaunchAction buildConfiguration = "Debug" selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB" launchStyle = "0" useCustomWorkingDirectory = "NO" ignoresPersistentStateOnLaunch = "NO" debugDocumentVersioning = "YES" debugServiceExtension = "internal" enableBacktraceRecording = "NO" allowLocationSimulation = "YES">
       <BuildableProductRunnable runnableDebuggingMode = "0">
-         <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "The Data Center.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
+         <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "Old Utah.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction buildConfiguration = "Release" shouldUseLaunchSchemeArgsEnv = "YES" savedToolIdentifier = "" useCustomWorkingDirectory = "NO" debugDocumentVersioning = "YES">
       <BuildableProductRunnable runnableDebuggingMode = "0">
-         <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "The Data Center.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
+         <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "DA7ACE000000000000000006" BuildableName = "Old Utah.app" BlueprintName = "TheDataCenter" ReferencedContainer = "container:TheDataCenter.xcodeproj"/>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction buildConfiguration = "Debug"/>

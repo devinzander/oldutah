@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Data Center</string>
+	<string>Old Utah</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -26,8 +26,10 @@
 	<string>public.app-category.reference</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Shows where you are on the cemetery map and points you toward the grave you're looking for. Your location never leaves the phone.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Saves the scans you choose to your photo library. Nothing is read from it.</string>
+	<string>Saves the photos and scans you choose to your photo library. Nothing is read from it.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>EBGaramond.ttf</string>

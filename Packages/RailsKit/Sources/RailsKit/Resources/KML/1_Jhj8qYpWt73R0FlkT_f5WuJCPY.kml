@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bingham Haulage and Drain Tunnels</name>
+    <description>Mascotte, Bingham, and Butterfield tunnels; along with Utah Metal Mines and Elton tunnels. Compiled by Don Strack. (http://utahrails.net/bingham/mascotte.php)</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-3325-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>3.325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-3325-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>4.9875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-3325-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-3325-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-3325-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-2938-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-2938-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2356-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.356</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-2356-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.534</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2356">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2356-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2356-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2356-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.356</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2356-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.534</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2356-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2356-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2356-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2733-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.733</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-2733-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.0995</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2733">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2733-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2733-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2744-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-2744-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2938-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-2938-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-3519-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.519</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-3519-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.2785</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-3519">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-3519-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-3519-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-3713-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.713</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-3713-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.5695</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-3713-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-3713-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-3713-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-2938-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>2.938</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F8971B-2938-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>4.407</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F8971B-2938">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-2938-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-2938-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-3131-nodesc-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>3.131</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F8971B-3131-nodesc-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>4.6965</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F8971B-3131-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-3131-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-3131-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F8971B-3906-normal">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F8971B-3906-highlight">
+      <LineStyle>
+        <color>ff1b97f8</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F8971B-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F8971B-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F8971B-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Mascotte Tunnel Portal</name>
+        <description>From USGS topo map</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0980173,40.5270768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dalton & Lark surface works]]></name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1175385,40.5271094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mascotte Tunnel</name>
+        <description><![CDATA[Approximate; Lark to Dalton & Lark, then to Yosemite, then to Ohio Copper, then to Commercial mine (near Niagara tunnel).]]></description>
+        <styleUrl>#line-DB4436-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0981139,40.5271053,0
+            -112.1156723,40.527681,0
+            -112.1190313,40.5257606,0
+            -112.1289558,40.5214748,0
+            -112.1358955,40.5143701,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Copper Branch, Mascotte</name>
+        <styleUrl>#line-DB4436-2356-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1434539,40.5231949,0
+            -112.1289558,40.5214748,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bingham Lark Tunnel</name>
+        <styleUrl>#line-009D57-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0966507,40.5277832,0
+            -112.1152401,40.5257797,0
+            -112.124043,40.5194748,0
+            -112.152562,40.5112104,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Lark Branch Bingham Tunnel</name>
+        <styleUrl>#line-009D57-3325-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1152401,40.5257797,0
+            -112.1175437,40.5269592,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Brooklyn and Lead Mine surface works</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1223021,40.5223141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Copper surface works</name>
+        <description>Abandoned in 1907 in favor of using the Mascotte tunnel for all purposes (approximate)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1456694,40.5230971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commercial</name>
+        <description>Lower Commercial tunnel, and Paradox tunnel openings (approximate)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1374726,40.5143375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bingham Tunnel Portal</name>
+        <description><![CDATA[New "Lark" tunnel (21,000 ft.) completed by Kennecott in 1951 to replace the Mascotte Tunnel.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0966507,40.5277832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Copper Mill Site</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0846653,40.5242306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Butterfield Tunnel</name>
+        <description>Completed in 1898.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1228492,40.4897982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Butterfield Tunnel</name>
+        <description><![CDATA[Approximate; drains Queen and Silver Shield ground, extended in 1923 to drain USSR&M Niagara ground. 8,200 feet]]></description>
+        <styleUrl>#line-DB4436-2356</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1230852,40.4899206,0
+            -112.1448326,40.4976798,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Butterfield Extension</name>
+        <description><![CDATA[Approximate. Extended in 1923 to drain USSR&M Niagara ground. 10,000 feet.]]></description>
+        <styleUrl>#line-DB4436-3519</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1448326,40.4976798,0
+            -112.1556274,40.5094333,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Utah Metal Mines Tunnel</name>
+        <description><![CDATA[Started 1909 by Utah Metal & Tunnel Co.; completed 1913; Carr Fork to Middle Canyon; 11,400 feet]]></description>
+        <styleUrl>#line-DB4436-2733</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1698093,40.5138644,0
+            -112.1919537,40.4867791,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Elton Tunnel, Tooele portal</name>
+        <description>Started 1937; completed 1941; 24,000 feet</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.2396111,40.5603245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elton Tunnel</name>
+        <description>Completed in 1941</description>
+        <styleUrl>#line-DB4436-2938</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1719122,40.5239452,0
+            -112.2397184,40.5601126,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Apex Shaft</name>
+        <description>Possible location of Rood shaft, which connected with Elton Tunnel</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1716118,40.524565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Queen Mine</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1423006,40.4975819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Jordan Mine</name>
+        <description>Approximate</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1518922,40.509786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Shield Mine</name>
+        <description>Approximate</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1483748,40.5083182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Telegraph Mine</name>
+        <description>Approximate</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1377087,40.5099981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Copper Underground Mine</name>
+        <description>Approximate; original 1903 portal</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1499825,40.5254621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5490 Tunnel</name>
+        <styleUrl>#line-DB4436-2744-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1421504,40.5296863,0
+            -112.1060586,40.5604712,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Niagara Tunnel</name>
+        <description>Approximate</description>
+        <styleUrl>#line-F8971B-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1438116,40.5183015,0
+            -112.149691,40.5085461,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Copperfield</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1432108,40.5188872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ohio Copper underground workings</name>
+        <description>Approximate, among numerous tunnels</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1419101,40.523265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bingham Canyon</name>
+        <description><![CDATA[Confluence of Galena Gulch and Bear Gulch; upper terminal of U.S. Mining's aerial tram (approximate)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1385055,40.5145491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yosemite Mine</name>
+        <description>Surface works of Yosemite mine (approximate)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1306734,40.5148101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradox portal</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1378248,40.5148228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joe Tunnel Opening</name>
+        <description>Approximate, based on comparison of USGS maps.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1180642,40.5090902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joe Tunnel</name>
+        <styleUrl>#line-DB4436-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1181017,40.5091004,0
+            -112.1267974,40.5103387,0
+            -112.1395862,40.5103056,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>St. Joe Tunnel, Lark Branch</name>
+        <styleUrl>#line-DB4436-3713-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1326662,40.510324,0
+            -112.1354234,40.5164557,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Yosemite No. Incline</name>
+        <description>Yosemote shaft to Mascotte tunnel</description>
+        <styleUrl>#line-4186F0-2938</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1289558,40.5214748,0
+            -112.1244728,40.5164451,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Armstrong Tunnel Portal</name>
+        <description>On south side of Carr Fork, across from the Highland Boy community house</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1650098,40.519152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Armstrong Tunnel</name>
+        <styleUrl>#line-F8971B-3131-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1650098,40.519152,0
+            -112.1643553,40.5185974,0
+            -112.1657072,40.5156122,0
+            -112.1608041,40.5089237,0
+            -112.1565984,40.507594,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bingham Metals Branch</name>
+        <description>Branch of Armstrong, completed in 1931</description>
+        <styleUrl>#line-F8971B-2938</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1619682,40.5104735,0
+            -112.1628855,40.5076103,0
+            -112.1673916,40.5063378,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bingham Metals Shaft</name>
+        <description>Approximate</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1672843,40.5066396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[D&RGW Cane Creek Branch]]></name>
+    <description><![CDATA[Brendel to Potash (near Moab)<br>(More information: http://utahrails.net/drgw/rg-utah-branches.php#canecreek)]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Brendel</name>
+        <description>Railroad location</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.808178,38.948563,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crescent Junction</name>
+        <description>Highway location</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.817877,38.943456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DoE Moab Tailings Disposal Site</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.7929,38.958441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brendel to Moab</name>
+        <description>28.3 miles; route of Moab tailings trains</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -109.605371,38.603214,0
+            -109.605886,38.604471,0
+            -109.607334,38.605947,0
+            -109.609115,38.607666,0
+            -109.610102,38.608881,0
+            -109.611325,38.611136,0
+            -109.6136,38.612444,0
+            -109.617891,38.613651,0
+            -109.620509,38.613484,0
+            -109.623041,38.612109,0
+            -109.625187,38.611941,0
+            -109.630036,38.613383,0
+            -109.638062,38.617139,0
+            -109.644413,38.620156,0
+            -109.650378,38.624582,0
+            -109.659605,38.630785,0
+            -109.66291,38.634774,0
+            -109.66866,38.641847,0
+            -109.675398,38.651936,0
+            -109.677629,38.65579,0
+            -109.693036,38.673885,0
+            -109.697757,38.679949,0
+            -109.698958,38.6835,0
+            -109.702177,38.705339,0
+            -109.703207,38.709022,0
+            -109.706018,38.715083,0
+            -109.707091,38.716456,0
+            -109.709086,38.717896,0
+            -109.715781,38.721881,0
+            -109.718313,38.722785,0
+            -109.719558,38.723421,0
+            -109.72033,38.724325,0
+            -109.721789,38.7262,0
+            -109.724879,38.728945,0
+            -109.727411,38.729882,0
+            -109.729085,38.730134,0
+            -109.731274,38.731054,0
+            -109.732668,38.732527,0
+            -109.733505,38.734201,0
+            -109.734321,38.737749,0
+            -109.740415,38.749833,0
+            -109.741445,38.752276,0
+            -109.741402,38.753615,0
+            -109.739728,38.755121,0
+            -109.737926,38.757062,0
+            -109.73814,38.759438,0
+            -109.747324,38.77948,0
+            -109.750371,38.785535,0
+            -109.764576,38.804534,0
+            -109.773159,38.815837,0
+            -109.785047,38.830247,0
+            -109.792171,38.840109,0
+            -109.796376,38.845557,0
+            -109.803479,38.856118,0
+            -109.808199,38.865726,0
+            -109.810688,38.87184,0
+            -109.812491,38.878606,0
+            -109.812276,38.889814,0
+            -109.812019,38.900802,0
+            -109.811654,38.918418,0
+            -109.811032,38.922207,0
+            -109.810431,38.924878,0
+            -109.810474,38.926431,0
+            -109.811332,38.933408,0
+            -109.812362,38.936747,0
+            -109.812362,38.938716,0
+            -109.810581,38.946043,0
+            -109.810045,38.948045,0
+            -109.809251,38.94883,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Moab Mill Site</name>
+        <description>Atlas Minerals mill site</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.605489,38.603222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moab to Potash</name>
+        <description>9.2 miles</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -109.60536,38.602987,0
+            -109.605135,38.601243,0
+            -109.605124,38.599449,0
+            -109.615231,38.581947,0
+            -109.616894,38.579842,0
+            -109.619222,38.577829,0
+            -109.624071,38.57476,0
+            -109.626346,38.573837,0
+            -109.628663,38.573501,0
+            -109.630487,38.573921,0
+            -109.631796,38.574776,0
+            -109.633298,38.577762,0
+            -109.634886,38.579138,0
+            -109.641151,38.580044,0
+            -109.644585,38.579507,0
+            -109.647417,38.5784,0
+            -109.652138,38.575112,0
+            -109.655571,38.571656,0
+            -109.658275,38.568066,0
+            -109.659305,38.565214,0
+            -109.658489,38.560918,0
+            -109.656301,38.557831,0
+            -109.653082,38.555213,0
+            -109.64982,38.552763,0
+            -109.647374,38.548837,0
+            -109.647331,38.547805,0
+            -109.647717,38.54689,0
+            -109.649134,38.545279,0
+            -109.65085,38.544205,0
+            -109.652739,38.543307,0
+            -109.653554,38.542459,0
+            -109.655228,38.538834,0
+            -109.655399,38.537022,0
+            -109.655871,38.535746,0
+            -109.656515,38.53426,0
+            -109.657073,38.532389,0
+            -109.656655,38.529913,0
+            -109.655914,38.527655,0
+            -109.65467,38.524197,0
+            -109.653726,38.52,0
+            -109.653876,38.517448,0
+            -109.654369,38.51514,0
+            -109.654766,38.513217,0
+            -109.655206,38.511648,0
+            -109.65555,38.51064,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Potash, Utah</name>
+        <description>Intrepid potash plant</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.656386,38.522149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel</name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -109.615016,38.5820396,0
+            -109.6050489,38.5993816,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>UP Fillmore Branch</name>
+    <description><![CDATA[Completed in 1923 by LA&SL]]></description>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-2744-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>2.744</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-2744-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>4.116</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-2744">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-2744-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-2744-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>2.938</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>4.407</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Fillmore Branch</name>
+        <description>32 miles</description>
+        <styleUrl>#line-F9A825-2744</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.5863886,39.3524352,0
+            -112.5871182,39.3511742,0
+            -112.5873541,39.3499961,0
+            -112.5870215,39.3489591,0
+            -112.5859111,39.3481751,0
+            -112.5835991,39.3471255,0
+            -112.5588799,39.3356252,0
+            -112.5379772,39.326116,0
+            -112.5169945,39.3163707,0
+            -112.4773192,39.2982401,0
+            -112.4699164,39.2947696,0
+            -112.4649811,39.2919299,0
+            -112.4613762,39.2876784,0
+            -112.4431157,39.2622972,0
+            -112.4017025,39.2046404,0
+            -112.3816422,39.1768135,0
+            -112.3615337,39.1487335,0
+            -112.3568344,39.1421768,0
+            -112.3545598,39.138815,0
+            -112.3537445,39.1365848,0
+            -112.353208,39.1348455,0
+            -112.3531437,39.1315749,0
+            -112.3530579,39.1253995,0
+            -112.3530579,39.0190503,0
+            -112.3534227,38.9678511,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Delta</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.5856376,39.3534971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fillmore</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3531973,38.971221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fillmore Wye Track</name>
+        <styleUrl>#line-F9A825-2938-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.3534334,38.9730978,0
+            -112.3535943,38.972589,0
+            -112.3539376,38.9722136,0
+            -112.3544312,38.971905,0
+            -112.3549461,38.9717382,0
+            -112.3554611,38.9716965,0
+            -112.3571241,38.9716965,0
+            -112.3554397,38.9716965,0
+            -112.3548496,38.9716047,0
+            -112.354399,38.9714963,0
+            -112.3539913,38.9712043,0
+            -112.3537982,38.9709874,0
+            -112.3535514,38.9706538,0
+            -112.3534548,38.97017,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

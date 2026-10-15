@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Wasatch & Jordan Valley Ry]]></name>
+    <description><![CDATA[Updated April 18, 2016<br>See: http://utahrails.net/articles/little-cottonwood.php]]></description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0BA9CC-2163-nodesc-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>2.163</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0BA9CC-2163-nodesc-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>3.2445</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-2163-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-2163-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-2163-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-3131-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-3131-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-3325-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>3.325</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-3325-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.9875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-3325">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-3325-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-3325-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-3713-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>3.713</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-4186F0-3713-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>5.5695</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-4186F0-3713">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-3713-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-3713-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-CC0000-5000-normal">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-CC0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000cc</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-CC0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-CC0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-CC0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Midvale to Sandy</name>
+        <description><![CDATA[1.88 miles; built as Bingham Canyon & Camp Floyd in 1873; to D&RGW in 1881 (10.22 miles, Midvale to Wasatch)]]></description>
+        <styleUrl>#line-4186F0-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8838,40.595104,0
+            -111.884916,40.596065,0
+            -111.886053,40.597466,0
+            -111.886911,40.59934,0
+            -111.888413,40.602549,0
+            -111.889615,40.604895,0
+            -111.890602,40.60685,0
+            -111.891332,40.608316,0
+            -111.892169,40.609277,0
+            -111.893263,40.610287,0
+            -111.894164,40.61076,0
+            -111.89513,40.610923,0
+            -111.897297,40.610939,0
+            -111.906567,40.610923,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1935 line change</name>
+        <description>Route moved to allow common use of State Street crossing with UP, using a Gantlet track</description>
+        <styleUrl>#line-4186F0-3713</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.891503,40.608724,0
+            -111.890087,40.60742,0
+            -111.889379,40.606687,0
+            -111.888971,40.606003,0
+            -111.888617,40.604765,0
+            -111.887984,40.601914,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sandy Station</name>
+        <description>Connection with Utah Southern (OSL, then UP)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.884422,40.594501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Southern</name>
+        <description>Built as Utah Southern, then OSL, then UP; now UTA TRAX</description>
+        <styleUrl>#line-CC0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.886611,40.602712,0
+            -111.886203,40.600643,0
+            -111.886075,40.598656,0
+            -111.88571,40.595544,0
+            -111.88556,40.593702,0
+            -111.885602,40.592089,0
+            -111.885667,40.590574,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sandy to Wasatch</name>
+        <description>8.34 miles (10.22 miles, Midvale to Wasatch); operated after 1899 with former Salt Lake City horse street cars.</description>
+        <styleUrl>#line-4186F0-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8836926,40.5949808,0
+            -111.8812023,40.5937106,0
+            -111.878112,40.5928505,0
+            -111.8720171,40.5916276,0
+            -111.8643399,40.590217,0
+            -111.8587561,40.5895513,0
+            -111.8570906,40.5891832,0
+            -111.8531184,40.5878455,0
+            -111.8514506,40.5870195,0
+            -111.8501581,40.586625,0
+            -111.8479025,40.5861997,0
+            -111.8461512,40.5859005,0
+            -111.844361,40.5857361,0
+            -111.8425709,40.5856368,0
+            -111.8407497,40.5858281,0
+            -111.8389178,40.5861498,0
+            -111.8376677,40.5864499,0
+            -111.8350474,40.5871699,0
+            -111.8305769,40.58765,0
+            -111.8169955,40.58808,0
+            -111.8144552,40.5879,0
+            -111.8120849,40.5876,0
+            -111.8103248,40.5872399,0
+            -111.8085246,40.5861798,0
+            -111.8081945,40.5858398,0
+            -111.8078145,40.5853297,0
+            -111.8075035,40.5849058,0
+            -111.8074714,40.5842537,0
+            -111.8075062,40.583763,0
+            -111.8076001,40.5832805,0
+            -111.8079434,40.5824742,0
+            -111.8085261,40.5818625,0
+            -111.8096238,40.5813935,0
+            -111.8117649,40.5807474,0
+            -111.8154364,40.5797868,0
+            -111.816033,40.5793634,0
+            -111.8162862,40.5788831,0
+            -111.8162951,40.5784521,0
+            -111.8160679,40.5780701,0
+            -111.8156831,40.5777282,0
+            -111.814035,40.5774034,0
+            -111.8113707,40.57728,0
+            -111.8096972,40.5773411,0
+            -111.8060043,40.578019,0
+            -111.8042641,40.578269,0
+            -111.803484,40.578169,0
+            -111.802904,40.577969,0
+            -111.8022939,40.5775389,0
+            -111.7985335,40.5731485,0
+            -111.7972988,40.5720773,0
+            -111.7967809,40.5719199,0
+            -111.7961826,40.5720069,0
+            -111.7955394,40.5724117,0
+            -111.7950677,40.5726161,0
+            -111.7944172,40.572695,0
+            -111.7897321,40.5729218,0
+            -111.7889935,40.573079,0
+            -111.7883783,40.5732281,0
+            -111.7874823,40.5734607,0
+            -111.7868865,40.57358,0
+            -111.7862061,40.5735382,0
+            -111.7853012,40.5733678,0
+            -111.7835433,40.5730058,0
+            -111.7814561,40.5727459,0
+            -111.7802778,40.5724712,0
+            -111.7795492,40.572285,0
+            -111.7785304,40.5722163,0
+            -111.7777047,40.5723025,0
+            -111.7770932,40.5723006,0
+            -111.7764574,40.5721917,0
+            -111.7758816,40.5720791,0
+            -111.7753168,40.5720484,0
+            -111.7748091,40.571923,0
+            -111.7724239,40.5714512,0
+            -111.7715923,40.5713639,0
+            -111.7711657,40.5713936,0
+            -111.7698702,40.5717533,0
+            -111.7694568,40.5717351,0
+            -111.7690433,40.5715865,0
+            -111.7686088,40.5713785,0
+            -111.7682092,40.5712378,0
+            -111.7677143,40.5711675,0
+            -111.7660185,40.5713218,0
+            -111.7653312,40.5714353,0
+            -111.7640009,40.5713295,0
+            -111.763368,40.5712318,0
+            -111.7622306,40.5712231,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Historical Marker</name>
+        <description><![CDATA[Commemorative track in Sandy's Bicentennial Park]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8780077,40.5928823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sand Pit</name>
+        <description><![CDATA[End of D&RGW Little Cottonwood Branch between 1933 and abandonment in 1943]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.86481,40.590981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Davenport Smelter</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.796532,40.574587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wasatch</name>
+        <description><![CDATA[Loading point for granite from the quarries; junction of later standard gauge Salt Lake & Alta and narrow gauge Little Cottonwood Transportation Co.; location taken from 1936 D&RGW map of Wasatch, shown in N 1/2 of NE 1/4 of Section 7. End of SG track at engineering station 535+74 (53,574 feet; 10.14 miles).]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7624411,40.5712822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wasatch Resort</name>
+        <description>Location from 1940 aerial photo</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7605096,40.5707202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wasatch spurs</name>
+        <description><![CDATA[Switchback spurs to load granite; shown on 1936 D&RGW map of Wasatch]]></description>
+        <styleUrl>#line-4186F0-3131</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.762581,40.571254,0
+            -111.763295,40.571327,0
+            -111.764309,40.571714,0
+            -111.765269,40.572383,0
+            -111.765864,40.572582,0
+            -111.766463,40.572598,0
+            -111.766846,40.572562,0
+            -111.767125,40.572542,0
+            -111.766138,40.572635,0
+            -111.765263,40.572656,0
+            -111.764689,40.572464,0
+            -111.764051,40.572167,0
+            -111.763397,40.572057,0
+            -111.762817,40.572012,0
+            -111.762329,40.572065,0
+            -111.761964,40.572175,0
+            -111.762336,40.572074,0
+            -111.762575,40.57205,0
+            -111.763096,40.572122,0
+            -111.763724,40.572489,0
+            -111.764405,40.57288,0
+            -111.76506,40.573067,0
+            -111.765789,40.5731,0
+            -111.766497,40.573055,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wastach to Tanners Flat</name>
+        <description>3.5 miles -- Route in the canyon itself, is based on news reports in 1935-1937 that after the tracks were removed, the right of way became a road, which was later paved; operated by narrow gauge Little Cottonwood Transportation Co.</description>
+        <styleUrl>#line-4186F0-3325</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.7621372,40.5712073,0
+            -111.7618316,40.5711625,0
+            -111.7613944,40.5710626,0
+            -111.761019,40.5710177,0
+            -111.7605336,40.5709769,0
+            -111.7601422,40.5710077,0
+            -111.7597058,40.5710693,0
+            -111.7592667,40.5711983,0
+            -111.75822,40.5714443,0
+            -111.7578576,40.5716509,0
+            -111.75764,40.57167,0
+            -111.756915,40.571494,0
+            -111.755794,40.571446,0
+            -111.75416,40.57147,0
+            -111.75227,40.57154,0
+            -111.75077,40.57133,0
+            -111.75004,40.57148,0
+            -111.74909,40.57183,0
+            -111.74735,40.57224,0
+            -111.74679,40.57208,0
+            -111.74585,40.57161,0
+            -111.74518,40.57116,0
+            -111.74456,40.57103,0
+            -111.7432,40.57106,0
+            -111.74243,40.5713,0
+            -111.74146,40.5719,0
+            -111.74073,40.57205,0
+            -111.73985,40.57194,0
+            -111.73821,40.57153,0
+            -111.73751,40.57168,0
+            -111.73632,40.57184,0
+            -111.73509,40.57185,0
+            -111.73395,40.57194,0
+            -111.73242,40.57164,0
+            -111.73183,40.57175,0
+            -111.73041,40.57228,0
+            -111.72912,40.57167,0
+            -111.72832,40.57168,0
+            -111.72744,40.5718,0
+            -111.72697,40.57204,0
+            -111.72659,40.5725,0
+            -111.7262,40.57269,0
+            -111.72509,40.57266,0
+            -111.72145,40.57202,0
+            -111.72016,40.57196,0
+            -111.71914,40.57168,0
+            -111.71841,40.57167,0
+            -111.71767,40.57144,0
+            -111.71706,40.57148,0
+            -111.7157,40.57109,0
+            -111.71478,40.57118,0
+            -111.71353,40.5714,0
+            -111.71089,40.57095,0
+            -111.70926,40.57056,0
+            -111.70853,40.57067,0
+            -111.70752,40.57109,0
+            -111.70707,40.57115,0
+            -111.70605,40.57106,0
+            -111.70489,40.5711,0
+            -111.70417,40.571,0
+            -111.70309,40.57069,0
+            -111.70232,40.57065,0
+            -111.70144,40.57087,0
+            -111.70085,40.57119,0
+            -111.70032,40.57162,0
+            -111.6992,40.5724,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Fairfield Flat</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7241934,40.5711806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seven Sisters Curves</name>
+        <styleUrl>#line-0BA9CC-2163-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.7215602,40.5722687,0
+            -111.7156378,40.5712907,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tanners Flat</name>
+        <description>End of the line for Little Cottonwood Transportation Co.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.698685,40.572762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tanners Flat to Alta</name>
+        <description>4 miles -- Route in the canyon itself, is based on news reports in 1935-1937 that after the tracks were removed, the right of way became a road, which was later paved. Final 2,000 feet based on 1943 USGS map.</description>
+        <styleUrl>#line-4186F0-3131</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.7028095,40.5707112,0
+            -111.7016306,40.5710942,0
+            -111.7013362,40.5713713,0
+            -111.700159,40.5734779,0
+            -111.6998655,40.5736592,0
+            -111.6995631,40.5736806,0
+            -111.6984142,40.5735324,0
+            -111.6978553,40.5735675,0
+            -111.6973145,40.5736941,0
+            -111.6961586,40.5740667,0
+            -111.6953671,40.574207,0
+            -111.6946904,40.5743945,0
+            -111.6943306,40.5744067,0
+            -111.6933163,40.5743456,0
+            -111.691817,40.574333,0
+            -111.6909829,40.5743968,0
+            -111.6901635,40.5745673,0
+            -111.6893763,40.5748356,0
+            -111.688812,40.5751145,0
+            -111.6881673,40.5752507,0
+            -111.6873911,40.57533,0
+            -111.6863091,40.5752178,0
+            -111.6852516,40.57528,0
+            -111.6845463,40.5753813,0
+            -111.6835867,40.5756507,0
+            -111.6828088,40.5760012,0
+            -111.682363,40.5761636,0
+            -111.6819181,40.5761437,0
+            -111.6806572,40.5759237,0
+            -111.6799871,40.5760171,0
+            -111.6786299,40.5762189,0
+            -111.677718,40.5765225,0
+            -111.676972,40.5769222,0
+            -111.6763496,40.5777078,0
+            -111.6758836,40.5782016,0
+            -111.6753252,40.5787222,0
+            -111.6749042,40.5789363,0
+            -111.6745006,40.5790026,0
+            -111.6731776,40.5784653,0
+            -111.6723069,40.5782048,0
+            -111.671447,40.5781399,0
+            -111.6701431,40.5782138,0
+            -111.6691776,40.5784093,0
+            -111.66848,40.5787534,0
+            -111.667756,40.5792155,0
+            -111.6674288,40.5796377,0
+            -111.6671066,40.5798924,0
+            -111.6665085,40.5801897,0
+            -111.6661196,40.5802893,0
+            -111.6652748,40.5802283,0
+            -111.6645147,40.580321,0
+            -111.6637547,40.5805563,0
+            -111.66295,40.5808311,0
+            -111.6622016,40.5809144,0
+            -111.6617066,40.5810488,0
+            -111.6603138,40.5815274,0
+            -111.6596962,40.5816679,0
+            -111.6592861,40.5819032,0
+            -111.6587649,40.5823083,0
+            -111.6558794,40.583836,0
+            -111.6550635,40.5843407,0
+            -111.6543073,40.5849481,0
+            -111.6529232,40.5863656,0
+            -111.6517193,40.5874472,0
+            -111.6512657,40.587682,0
+            -111.6508743,40.5877857,0
+            -111.6495814,40.5880929,0
+            -111.6485786,40.5884476,0
+            -111.6475084,40.5888286,0
+            -111.6468607,40.5889478,0
+            -111.6457839,40.5889163,0
+            -111.6446065,40.5884865,0
+            -111.6435578,40.5879426,0
+            -111.6426402,40.5875149,0
+            -111.6412318,40.5871945,0
+            -111.6401282,40.5870491,0
+            -111.638531,40.5871725,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wasatch Drain Tunnel</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.651628,40.5837625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Hecla Tunnel</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6386246,40.5868343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emma Tunnel</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6311038,40.5923826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michigan-Utah Mine</name>
+        <description><![CDATA[Aerial tramway from this mine to Tanner's Flat; known earlier as Continental Alta mine]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6176873,40.5955721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alta Consolidated Mine</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6210937,40.5962442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbus Consolidated Mine</name>
+        <description>Location from 1940 aerial photo</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6395581,40.5898488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miller Mine</name>
+        <description>Top of American Fork canyon</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6213834,40.5466051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Superior Gulch</name>
+        <description>Site of numerous snow slides</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6543335,40.5860249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

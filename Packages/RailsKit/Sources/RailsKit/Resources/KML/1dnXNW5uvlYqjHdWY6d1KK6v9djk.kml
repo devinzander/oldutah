@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Salt Lake Valley Smelters</name>
+    <description>More information: http://utahrails.net/mining/smelters-index.php</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3366FF-5000-normal">
+      <LineStyle>
+        <color>ffff6633</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3366FF-5000-highlight">
+      <LineStyle>
+        <color>ffff6633</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3366FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3366FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3366FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF0000-5000-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>UP Mainline</name>
+        <description>Completed in 1871 as Utah Southern RR</description>
+        <styleUrl>#line-3366FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.896986,40.699259,0
+            -111.897039,40.689229,0
+            -111.896911,40.688318,0
+            -111.896353,40.686659,0
+            -111.894786,40.681387,0
+            -111.894164,40.678571,0
+            -111.8941,40.677139,0
+            -111.894164,40.675463,0
+            -111.894121,40.673494,0
+            -111.894207,40.670613,0
+            -111.894186,40.668465,0
+            -111.894207,40.667342,0
+            -111.894078,40.666675,0
+            -111.893821,40.66521,0
+            -111.89395,40.664217,0
+            -111.894121,40.662899,0
+            -111.894593,40.661743,0
+            -111.895151,40.660587,0
+            -111.895924,40.659236,0
+            -111.896868,40.657608,0
+            -111.897554,40.656078,0
+            -111.898005,40.654776,0
+            -111.898112,40.653311,0
+            -111.898091,40.651618,0
+            -111.898241,40.64535,0
+            -111.89837,40.637469,0
+            -111.898391,40.634783,0
+            -111.898477,40.630744,0
+            -111.898456,40.62791,0
+            -111.89852,40.625614,0
+            -111.898606,40.622943,0
+            -111.898649,40.62138,0
+            -111.898541,40.620093,0
+            -111.898263,40.618578,0
+            -111.897919,40.617129,0
+            -111.897361,40.615809,0
+            -111.896524,40.61436,0
+            -111.895773,40.613268,0
+            -111.894507,40.611819,0
+            -111.893327,40.610629,0
+            -111.891932,40.609277,0
+            -111.890409,40.607974,0
+            -111.88925,40.60685,0
+            -111.888392,40.605808,0
+            -111.887619,40.604765,0
+            -111.886933,40.603348,0
+            -111.886375,40.601653,0
+            -111.886225,40.600366,0
+            -111.886117,40.599079,0
+            -111.885903,40.59745,0
+            -111.885688,40.595755,0
+            -111.885581,40.59455,0
+            -111.885474,40.593262,0
+            -111.885538,40.592057,0
+            -111.885688,40.590949,0
+            -111.885903,40.587559,0
+            -111.886075,40.585311,0
+            -111.886195,40.583261,0
+            -111.886268,40.582235,0
+            -111.88634,40.58121,0
+            -111.886399,40.580572,0
+            -111.886437,40.579939,0
+            -111.886447,40.579297,0
+            -111.886407,40.578678,0
+            -111.886332,40.578002,0
+            -111.886257,40.577494,0
+            -111.886155,40.57703,0
+            -111.885924,40.576087,0
+            -111.885299,40.573546,0
+            -111.884978,40.572277,0
+            -111.884825,40.571641,0
+            -111.884661,40.570993,0
+            -111.883982,40.568477,0
+            -111.883521,40.567238,0
+            -111.883068,40.566008,0
+            -111.881257,40.561085,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Mainline]]></name>
+        <description>Completed in 1883</description>
+        <styleUrl>#line-FF0000-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.903992,40.699219,0
+            -111.901674,40.692256,0
+            -111.900043,40.687375,0
+            -111.898327,40.682656,0
+            -111.897297,40.679173,0
+            -111.896996,40.677937,0
+            -111.896868,40.676147,0
+            -111.896696,40.674324,0
+            -111.895881,40.665731,0
+            -111.895838,40.664526,0
+            -111.895795,40.663387,0
+            -111.895881,40.662378,0
+            -111.896396,40.660945,0
+            -111.897254,40.658178,0
+            -111.898112,40.655704,0
+            -111.898928,40.653588,0
+            -111.899915,40.650722,0
+            -111.900215,40.649615,0
+            -111.900473,40.648443,0
+            -111.900558,40.647238,0
+            -111.900644,40.641214,0
+            -111.900687,40.64014,0
+            -111.900902,40.639195,0
+            -111.901202,40.638186,0
+            -111.903219,40.630142,0
+            -111.906009,40.618806,0
+            -111.906481,40.61708,0
+            -111.906824,40.615809,0
+            -111.906867,40.614865,0
+            -111.907039,40.613822,0
+            -111.90691,40.612486,0
+            -111.904206,40.59802,0
+            -111.902962,40.591698,0
+            -111.902704,40.590851,0
+            -111.902704,40.589678,0
+            -111.904035,40.580748,0
+            -111.904593,40.577064,0
+            -111.904678,40.575924,0
+            -111.90455,40.574848,0
+            -111.904335,40.573968,0
+            -111.90147,40.568434,0
+            -111.901073,40.567684,0
+            -111.90073,40.566931,0
+            -111.900516,40.566071,0
+            -111.900398,40.565199,0
+            -111.900419,40.564327,0
+            -111.900537,40.563454,0
+            -111.90102,40.559558,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Morgan/Hanauer</name>
+        <description>Between OSL (UP) line and Main Street, south of Big Cottonwood Creek; built June 1870 as the Woodhull smelter.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.893177,40.679629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Francklyn/Horn Silver</name>
+        <description><![CDATA[Between OSL (UP) Murray depot and D&RGW Murray depot]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.895044,40.66674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Germania</name>
+        <description><![CDATA[Sanborn maps suggest that the Germania Works were just south of Little Cottonwood Creek, and located between the UP line and the D&RGW line.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.895752,40.660685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highland Boy</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.919377,40.648381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Ore Sampling</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.898971,40.651865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mingo Smelter</name>
+        <description>50 East 9000 South in Sandy</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.887898,40.587625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Davenport Smelter</name>
+        <description>About 3500 East and 9800 South</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.796542,40.573821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flagstaff Smelter (First)</name>
+        <description>About 3500 East and 9500 South, on north side of Little Cottonwood Creek</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.796596,40.578376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flagstaff Smelter (Second)</name>
+        <description>About 9200 South, on east side of UP tracks</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.885602,40.584431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flagstaff Smelter site</name>
+        <description>approx 450 East 8680 South, see Deseret News, May 27, 1994</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.877556,40.593539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandy Sampling Works</name>
+        <description>About 8600 South, just east of the UP tracks</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.884766,40.594908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sandy Smelter Site</name>
+        <description>About 8600 South, two blocks east of the UP tracks</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.880496,40.594998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saturn Smelter</name>
+        <description>About 9000 South and three blocks west of the UP tracks</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.895795,40.587893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ASARCO Murray</name>
+        <description><![CDATA[American Smelting & Refining Company (Asarco)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.891203,40.660262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>United States smelter</name>
+        <description><![CDATA[United States Smelting, Refining & Mining Company (USSR&M)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9184546,40.6113793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheridan Hill Smelter</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8983574,40.615802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

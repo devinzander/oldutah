@@ -1,0 +1,842 @@
+{
+ "fetched": "2026-09-18T02:26:28Z",
+ "maps": [
+  {
+   "title": "Ballard & Thompson Railroad",
+   "mid": "1mhRL738e2fHFg_SBFBEuAQgNE-8",
+   "blurb": "A Google Map of the railroad in eastern Utah, between Thompson on the D&RGW, and a coal mine five miles north.",
+   "related": "/utahrails/ballard-thompson.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Ballard & Thompson Railroad]]>",
+   "placemarks": 4
+  },
+  {
+   "title": "Bamberger Railroad",
+   "mid": "14uGFnwBSiH04NSZieNl0kyLie-g",
+   "blurb": "A Google Map of the electric railroad between Salt Lake City and Ogden.",
+   "related": "/utahrails/bamberger.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Bamberger Railroad",
+   "placemarks": 11
+  },
+  {
+   "title": "Bingham Canyon Railroads",
+   "mid": "1AT3gWi8z-KWXhjoTSOJjvM57G7U",
+   "blurb": "A Google Map of the railroads of that served Bingham Canyon and the copper mills at Great Salt Lake, including Utah Copper, Kennecott Copper, Bingham & Garfield, and D&RGW.",
+   "related": "/bingham/bingham-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Copper - Kennecott Railroads",
+   "placemarks": 33
+  },
+  {
+   "title": "Bingham Haulage and Drain Tunnels",
+   "mid": "1_Jhj8qYpWt73R0FlkT_f5WuJCPY",
+   "blurb": "A Google Map showing the locations of the Mascotte, Bingham, and Butterfield tunnels.",
+   "related": "/bingham/mascotte.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Bingham Haulage and Drain Tunnels",
+   "placemarks": 38
+  },
+  {
+   "title": "Cache Valley Railroads",
+   "mid": "1wcPfP3gevbZRAIm0jNGNiJHNNVY",
+   "blurb": "A Google Map showing the railroads in Cache Valley, including the Utah Idaho Central interurban line, and the UP/OSL Ogden-Pocatello main line and various UP/OSL Cache Valley branches.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Cache Valley Railroads",
+   "placemarks": 50
+  },
+  {
+   "title": "Carbon County Railway",
+   "mid": "1IJmFJQTb1yfEvt29aWaYQuE0q00",
+   "blurb": "A Google Map of the Carbon County Railway that served coal mines in eastern Utah.",
+   "related": "/utahrails/carbon-county-ry.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Carbon County Railway",
+   "placemarks": 21
+  },
+  {
+   "title": "Castle Valley Railroad (1909-1914)",
+   "mid": "1_P3l-UZzYdJ_nfZbc2Vfm_s0CoY",
+   "blurb": "A Google Map of Utah Railway and its predecessor railroads. (map zoomed to Castle Valley Ry. portion)",
+   "related": "/utahrails/southern-utah-castle-valley.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Railway",
+   "placemarks": 76
+  },
+  {
+   "title": "Castle Valley Railway (1901-1908)",
+   "mid": "1fxQc9zROxLOuHdjIwL2lz79BHcfa5aYw",
+   "blurb": "A Google map of the Castle Valley Railway and the later D&RGW Castle Valley Branch in Salina canyon, Utah. Built in 1903; dormant 1904-1921; abandoned in 1942.",
+   "related": "/utahrails/castle-valley-1901-1908.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Castle Valley Branch]]>",
+   "placemarks": 11
+  },
+  {
+   "title": "Central Pacific (SP) Promontory Line, North from Ogden",
+   "mid": "1fJCEug7UsFXUz7MhGlUGiCENSOk",
+   "blurb": "A Google Map showing the route of the former Central Pacific 1869 mainline north from Ogden north to Corinne Junction, where it was joined in 1903 by the UP-OSL Malad Branch.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "SP-CP North From Ogden",
+   "placemarks": 10
+  },
+  {
+   "title": "Central Utah Rail Project",
+   "mid": "1lWncSYB6dnJGGBl77LiOCWf81MM",
+   "blurb": "A Google Map that shows the major points along the route of the planned Central Utah Rail Project (also known as the Six County Rail Line) to provide lower transportation costs to coal mines in central Utah.Rail Project)",
+   "related": "/utahrails/six-county.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Central Utah Rail Project",
+   "placemarks": 10
+  },
+  {
+   "title": "Coalville Coal Mines",
+   "mid": "1FhQoxAgnVEARL6WsumrjIaAYgik",
+   "blurb": "A Google Map of the Grass Creek Branch and the Weber Mine Spur, to serve the coal mines near Coalville.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Coalville Coal Mines",
+   "placemarks": 12
+  },
+  {
+   "title": "Colorado Central, Julesburg Branch",
+   "mid": "1jpCfDIutG_HVLHiFmMD1RppYkas",
+   "blurb": "A Google Map of UP's Julesburg Branch, built by the Colorado Central Railroad in 1881.",
+   "related": "/up/colorado-central.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Julesburg Branch",
+   "placemarks": 14
+  },
+  {
+   "title": "Crescent Tramway",
+   "mid": "18-TV0mesdvbqF1MIFSf3MSzOy70",
+   "blurb": "A Google Map of the Crescent Mining Company's tramway at Park City, the home of the first Shay locomotive in Utah; traced from 1903 USGS Park City Special map.",
+   "related": "/utahrails/crescent-mining.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Crescent Tramway",
+   "placemarks": 5
+  },
+  {
+   "title": "D&RGW/RGW Abandoned Grades",
+   "mid": "12JIcxzAbTCsDZjf85h4MZCHFLW7BtQo",
+   "blurb": "A Google Map showing the three abandoned grades in eastern Utah:",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Abandoned Grades]]>",
+   "placemarks": 14
+  },
+  {
+   "title": "D&RGW Bennett Branch",
+   "mid": "1XnHveLxcWE_-LJx4h0zFAWh88H8",
+   "blurb": "A Google Map of the Bennett Branch in north Davis County, built to serve the sugar beet growing area surrounding the Layton Sugar company's sugar plant. (map zoomed to show the Bennett Branch portion of the larger map of Syracuse railroads)",
+   "related": "/drgw/rg-utah-branches.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Syracuse Branches",
+   "placemarks": 32
+  },
+  {
+   "title": "D&RGW Cane Creek Subdivision (Moab)",
+   "mid": "1hQoW_uq8z_ljR9h9T_KrJpGTGaA",
+   "blurb": "A Google map of the Cane Creek Branch, built by D&RGW in 1961; still operated by UP.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Cane Creek Branch]]>",
+   "placemarks": 8
+  },
+  {
+   "title": "D&RGW Castle Valley Branch (Salina)",
+   "mid": "1fxQc9zROxLOuHdjIwL2lz79BHcfa5aYw",
+   "blurb": "A Google map of the Castle Valley Railway and the later D&RGW Castle Valley Branch in Salina canyon, Utah. Built in 1903; dormant 1904-1921; abandoned in 1942.",
+   "related": "/utahrails/castle-valley-1901-1908.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Castle Valley Branch]]>",
+   "placemarks": 11
+  },
+  {
+   "title": "D&RGW Jennings Quarry Spur",
+   "mid": "1I8ngEopct0jLLuKoHuWD3rlHKzg",
+   "blurb": "(also known as Potter's Spur) -- A Google Map of D&RGW's Potter's Quarry Spur, from Kyune east to the quarry. Initial construction was three miles to Jennings Quarry in 1892; extended to 4.97 miles to Potter's Quarry in 1900; removed in 1917. Kyune was first called Jennings Junction, changed to Kyune before 1900.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Potters Spur]]>",
+   "placemarks": 7
+  },
+  {
+   "title": "D&RGW Lake Park Spur (Farmington)",
+   "mid": "12pjrq0sLI_8uPMeuS7n5wPETs8I",
+   "blurb": "A Google Map of the D&RGW spur in Farmington, built in 1886 to serve the Lake Park Resort; the buildings were moved to in 1896 to create the Lagoon Resort; the spur was abandoned in 1925.",
+   "related": "/utahrails/lake-park-resort.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Lake Park Spur]]>",
+   "placemarks": 11
+  },
+  {
+   "title": "D&RGW Lark Branch",
+   "mid": "1VIxVBr7Mqd5rknztJHJffO2QVXusgX0",
+   "blurb": "A Google map of the D&RGW Lark Branch, built in 1903 as the Dalton & Lark Branch; partially changed in 1955 to serve the new Bingham-Lark tunnel.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Lark Branch]]>",
+   "placemarks": 9
+  },
+  {
+   "title": "D&RGW Marysvale Branch",
+   "mid": "1RdcdQ59N-F5ayQ2ZqPxxX-wjCfc",
+   "blurb": "A Google Map of D&RGW's Marysvale Branch, built in 1891 and abandoned in 1984.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Marysvale Branch]]>",
+   "placemarks": 17
+  },
+  {
+   "title": "D&RGW Park City Branch",
+   "mid": "1iqLgVqtMYUjfrOI1sPeyg93mgyE",
+   "blurb": "A Google Map of the rail lines in and around Park City, Utah; includes locations of the major mines, drain tunnel, and aerial tramways.",
+   "related": "/drgw/rg-park-city-branch.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Park City Branches",
+   "placemarks": 43
+  },
+  {
+   "title": "D&RGW Potter's Quarry Spur",
+   "mid": "1I8ngEopct0jLLuKoHuWD3rlHKzg",
+   "blurb": "(also known as Jennings Spur) -- A Google Map of D&RGW's Potter's Quarry Spur, from Kyune east to the quarry. Initial construction was three miles to Jennings Quarry in 1892; extended to 4.97 miles to Potter's Quarry in 1900; removed in 1917. Kyune was first called Jennings Junction, changed to Kyune before 1900.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Potters Spur]]>",
+   "placemarks": 7
+  },
+  {
+   "title": "D&RGW Provo Canyon Branch",
+   "mid": "1VxyanZZLnwNDBBaRdf9v_1n7o5I",
+   "blurb": "A Google Map of D&RGW's branch from Provo to Heber City, by way of Provo Canyon, built in 1897 and abandoned in 1968; northern portion became Heber Creeper tourist railroad in 1971, and today is the Heber Valley Railroad. (See also: Parker Wilson's map of the Provo Canyon Branch)",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Provo Canyon Branch]]>",
+   "placemarks": 11
+  },
+  {
+   "title": "D&RGW Spring Canyon Branch",
+   "mid": "1dqQgmcyACUhRnM1PZAq3CdUHASA",
+   "blurb": "A Google Map of D&RGW's Spring Canyon Branch, west of Helper; also shows Utah Railway Spring Canyon Branch and coal mines.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Spring Canyon, D&RGW-Utah Ry.]]>",
+   "placemarks": 20
+  },
+  {
+   "title": "D&RGW Thistle",
+   "mid": "1-fuCkP4ghUedr637BFhBs_XQUhE",
+   "blurb": "A Google Map of Thistle, showing the old line and the new line after the 1983 flood.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Thistle]]>",
+   "placemarks": 9
+  },
+  {
+   "title": "D&RGW Tintic Branches",
+   "mid": "1bXGvUxFbEs0263LQeXP5ln8-MgY",
+   "blurb": "A Google Map of D&RGW's Tintic Branch, including the Burgin mine spur and other branches.",
+   "related": "/articles/tintic.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Tintic Branch]]>",
+   "placemarks": 43
+  },
+  {
+   "title": "Deep Creek Railroad",
+   "mid": "1DLK_L4KvEYby7tpXnFm2TaTdlKc",
+   "blurb": "A Google Map of the Deep Creek Railroad, built in 1917 between Wendover and Gold Hill.",
+   "related": "/utahrails/deep-creek.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Deep Creek Railroad",
+   "placemarks": 8
+  },
+  {
+   "title": "Deseret Power Railway",
+   "mid": "1tdJDpJe_EhiuIPP_JmMji_CYhKc",
+   "blurb": "A Google Map showing the railroad (formerly known as the Deseret Western Railway), and the locations of the Deserado coal mine, the rail car loadout, and the Bonanza power plant.",
+   "related": "/utahrails/deseret-western.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Deseret Power Railway",
+   "placemarks": 8
+  },
+  {
+   "title": "Emigration Canyon Railroad",
+   "mid": "1h1xgCVa_ikgwVsVi4kCJrGwFQSE",
+   "blurb": "A Google Map of the electric railroad east of Salt Lake City in Emigration Canyon, operated 1907-1917.",
+   "related": "/utahrails/emigration-canyon.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Emigration Canyon RR",
+   "placemarks": 13
+  },
+  {
+   "title": "Eureka Hill Railway",
+   "mid": "1Y_zg2vlJJapakQ2G09nmdmKgIa8",
+   "blurb": "A Google Map of the Eureka Hill Railway, a narrow gauge railroad in the Tintic Mining District.",
+   "related": "/utahrails/eureka-hill-1907-1937.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Eureka Hill Railway",
+   "placemarks": 15
+  },
+  {
+   "title": "Garfield Railroads",
+   "mid": "1GwIHIfobh_yPPXJIlF_bxOrG7RE",
+   "blurb": "A Google Map of the railroads between Salt Lake City's west side, and Garfield, where the large smelter was located.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Garfield Railroads",
+   "placemarks": 20
+  },
+  {
+   "title": "Grant Tower",
+   "mid": "1xjEjcExxvMzQBTIVy2o6gB_Ih7Q",
+   "blurb": "A Google Map of the Grant Interlocking & Signal Tower interchange in Salt Lake City.",
+   "related": "/utahrails/grant-tower.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Grant Tower Area, Salt Lake City",
+   "placemarks": 24
+  },
+  {
+   "title": "Honerine Drain Tunnel and the mill at Bauer, Utah",
+   "mid": "1eZPHlkJfK0E_eBOIkIiJ7kWVqRo",
+   "blurb": "A Google Map showing the location of Honerine drain tunnel and Bauer mill near Tooele, Utah.(added March 15, 2015)",
+   "related": "/mining/combined-metals.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Honerine Drain Tunnel, Bauer, Utah",
+   "placemarks": 10
+  },
+  {
+   "title": "Industrials",
+   "mid": "1ob-OZahdKOhKTQqe41gkwhmpfc8",
+   "blurb": "A Google map with locations in Utah with locomotives.",
+   "related": "/industries/industries-locos.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Industrials",
+   "placemarks": 27
+  },
+  {
+   "title": "Iron Mountain Railroads",
+   "mid": "1Y5AFgZuAZEoZjM3p2Qai9d3RBK0",
+   "blurb": "A Google Map of the railroads and mines in the Iron Mountain District, near Cedar City, Utah.",
+   "related": "/mining/iron-mountain.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Iron Mountain",
+   "placemarks": 33
+  },
+  {
+   "title": "Jordan & Salt Lake Canal",
+   "mid": "1kpMxbRZ_VqRQpAsngAGw3-5zxig",
+   "blurb": "A Google map showing the larger canals along the east bench of Salt Lake Valley; originally meant to transport granite",
+   "related": "/mining/granite.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Jordan & Salt Lake Canal]]>",
+   "placemarks": 8
+  },
+  {
+   "title": "Kenilworth Railroads",
+   "mid": "1hGNsMTF8PFxmjYXLO13j04ll8AYZU9MQ",
+   "blurb": "A Google Map of the railroads and coal mines in the Kenilworth area.",
+   "related": "/utahcoal/kenilworth.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Kenilworth Railroads",
+   "placemarks": 19
+  },
+  {
+   "title": "Kennecott Railroads",
+   "mid": "1AT3gWi8z-KWXhjoTSOJjvM57G7U",
+   "blurb": "A Google Map of the railroads of that served Bingham Canyon and the copper mills at Great Salt Lake, including Utah Copper, Kennecott Copper, Bingham & Garfield, and D&RGW.",
+   "related": "/bingham/bingham-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Copper - Kennecott Railroads",
+   "placemarks": 33
+  },
+  {
+   "title": "LA&SL Fairfield Branch",
+   "mid": "1wInENj5x1SAEeUO-G3614R3EhGI",
+   "blurb": "A Google Map of LA&SL's railroad line from Lehi to Tintic by way of Cedar and Rush valleys; completed as Salt Lake & Western in 1882; connection to Leamington Cutoff in 1903; parts abandoned in 1927 and 1938; last portion of the branch abandoned and removed in 1952.",
+   "related": "/up/up-in-ut-fairfield-branch.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Fairfield Branch]]>",
+   "placemarks": 23
+  },
+  {
+   "title": "LA&SL Frisco and Newhouse Branches",
+   "mid": "1Arz4rR8hCyQMSdNfMGnmYIl4C0s",
+   "blurb": "A Google Map of LA&SL's branches between Milford, Frisco, and Samuel Newhouse's copper mine and mill at Newhouse.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Frisco and Newhouse Branches]]>",
+   "placemarks": 25
+  },
+  {
+   "title": "Little Cottonwood Canyon Railroads",
+   "mid": "15mzfB0zg6yBDlWyVbP1ibHGAiQo",
+   "blurb": "A Google Map of the railroads in Little Cottonwood Canyon.",
+   "related": "/articles/little-cottonwood.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Wasatch & Jordan Valley Ry]]>",
+   "placemarks": 24
+  },
+  {
+   "title": "Logan Rapid Transit",
+   "mid": "1GjikcT5QyytMLMxHZDBRzEtlK-U",
+   "blurb": "A Google Map of the streetcar routes of the Logan Rapid Transit Company, 1909 to 1926.",
+   "related": "/utahrails/logan-rapid-transit.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Logan Rapid Transit",
+   "placemarks": 7
+  },
+  {
+   "title": "Montana Union Railway",
+   "mid": "1uKck2uRVeNekYWaRfZAttyfQBwk",
+   "blurb": "A Google Map of the Montana Union Railway, owned by UP and leased to BNSF.",
+   "related": "/articles/montana-union.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Montana Union Railway",
+   "placemarks": 22
+  },
+  {
+   "title": "National Coal Railway",
+   "mid": "1QF1fmajE_GiCa_hEVb__f-XZ5c8",
+   "blurb": "A Google Map of Utah Railway's National Branch, built in 1925, abandoned in 1954.",
+   "related": "/utahcoal/gordon-creek.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "National Coal Railway",
+   "placemarks": 15
+  },
+  {
+   "title": "New East Tintic Railway",
+   "mid": "14hcluoW8BtB9ufg1Qgn5a_HL6Zk",
+   "blurb": "A Google Map of the New East Tintic Railway, purchased by OSL in 1900 and the home of UP's Shay locomotives.",
+   "related": "/utahrails/new-east-tintic.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "New East Tintic Railway",
+   "placemarks": 5
+  },
+  {
+   "title": "Newhouse, Copper Gulch & Sevier Lake Railroad",
+   "mid": "1Arz4rR8hCyQMSdNfMGnmYIl4C0s",
+   "blurb": "A Google Map of the railroad that connected the Cactus copper mine in Copper Gulch, with Samuel Newhouse's mill at Newhouse.",
+   "related": "/mining/newhouse.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Frisco and Newhouse Branches]]>",
+   "placemarks": 25
+  },
+  {
+   "title": "Park City Branches",
+   "mid": "1iqLgVqtMYUjfrOI1sPeyg93mgyE",
+   "blurb": "A Google Map of the rail lines in and around Park City, Utah; includes locations of the major mines, drain tunnel, and aerial tramways.",
+   "related": "/mining/park-city-mining-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Park City Branches",
+   "placemarks": 43
+  },
+  {
+   "title": "Pioche Mines and Railroads",
+   "mid": "1MehTSRWgp95OK0mavdGks0XGUJ8",
+   "blurb": "A Google Map showing the railroads and major mines in the Pioche, Bristol, and Jackrabbit districts near Pioche, Nevada. (Added March 25, 2015)",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Pioche Railroads",
+   "placemarks": 45
+  },
+  {
+   "title": "Salt Lake & Denver Railroad",
+   "mid": "1rt1wv_JmwbjyK2RoPDPjD76Omw4",
+   "blurb": "A Google Map showing the proposed route of Simon Bamberger's Salt Lake & Denver RR, from Craig, Colorado, west to either Springville or Spanish Fork, Utah.(See also: Adam Eastman's map of a similar route, drawn in October 2010)",
+   "related": "/utah-rrs/utah-rrs-inc-4.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Salt Lake & Denver]]>",
+   "placemarks": 5
+  },
+  {
+   "title": "Salt Lake & Fort Douglas/Salt Lake & Eastern",
+   "mid": "1UFboH8suxJO7zXsBPuNaGxuiCjw",
+   "blurb": "A Google Map of the Salt Lake & Fort Douglas Railway, and its associated Salt Lake & Eastern Railway, both in the Sugar House area of Salt Lake City.",
+   "related": "/utahrails/salt-lake-fort-douglas-1883-1897.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[SL&E/SL&FD]]>",
+   "placemarks": 35
+  },
+  {
+   "title": "Salt Lake & Mercur",
+   "mid": "1c3izljaV-cIbqaE6s2mPhXXGmAQ",
+   "blurb": "A Google Map of the route of the Salt Lake & Mercur Railroad.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Salt Lake & Mercur Railroad]]>",
+   "placemarks": 4
+  },
+  {
+   "title": "Salt Lake & Utah Railroad",
+   "mid": "1Mn5ivJ5lFzkvoQckqCCPrabTOto",
+   "blurb": "A Google Map of the route of the Salt Lake & Utah Railroad, built in 1910 and abandoned in 1947.",
+   "related": "/utahrails/salt-lake-utah.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Salt Lake and Utah Railroad",
+   "placemarks": 102
+  },
+  {
+   "title": "Salt Lake Valley Smelters",
+   "mid": "1dnXNW5uvlYqjHdWY6d1KK6v9djk",
+   "blurb": "A Google Map that shows the locations of the largest smelters in Salt Lake valley, at one time the smelting center of the western United States.",
+   "related": "/mining/smelters-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Salt Lake Valley Smelters",
+   "placemarks": 18
+  },
+  {
+   "title": "San Pete Valley Railroads",
+   "mid": "1RdcdQ59N-F5ayQ2ZqPxxX-wjCfc",
+   "blurb": "Included as part of a Google Map of D&RGW's Marysvale Branch, built in 1891 and abandoned in 1984.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[D&RGW Marysvale Branch]]>",
+   "placemarks": 17
+  },
+  {
+   "title": "St. John & Ophir Railroad",
+   "mid": "1J2OtAbnq_b2PfcMJDb-x7f59bnU",
+   "blurb": "A Google Map of St. John & Ophir Railroad in western Utah.",
+   "related": "/utahrails/st-john-ophir.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[St. John & Ophir Railroad]]>",
+   "placemarks": 5
+  },
+  {
+   "title": "Southern Utah Railroad",
+   "mid": "1_P3l-UZzYdJ_nfZbc2Vfm_s0CoY",
+   "blurb": "A Google map of the Southern Utah Railroad, a predecessor to Utah Railway. (map zoomed to Southern Utah RR portion)",
+   "related": "/utahrails/southern-utah-castle-valley.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Railway",
+   "placemarks": 76
+  },
+  {
+   "title": "SP-CP Promontory Line, North from Ogden",
+   "mid": "1fJCEug7UsFXUz7MhGlUGiCENSOk",
+   "blurb": "A Google Map showing the route of the former Central Pacific 1869 mainline north from Ogden north to Corinne Junction, where it was joined in 1903 by the UP-OSL Malad Branch.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "SP-CP North From Ogden",
+   "placemarks": 10
+  },
+  {
+   "title": "Syracuse Branches",
+   "mid": "1XnHveLxcWE_-LJx4h0zFAWh88H8",
+   "blurb": "A Google Map of the UP and D&RGW branches serving North Davis County, including Syracuse, West Point, and Hooper in Weber County.",
+   "related": "/utahrails/up-syracuse.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Syracuse Branches",
+   "placemarks": 32
+  },
+  {
+   "title": "Tooele Valley Railway",
+   "mid": "1tLsBl5wkw-HoJeimxmv9GvG59HI",
+   "blurb": "A Google Map for Tooele Valley Railway, completed in 1908 and abandoned in 1982; served the International smelter owned by Anaconda.-",
+   "related": "/utahrails/tooele-valley.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Tooele Valley Railway",
+   "placemarks": 13
+  },
+  {
+   "title": "Uinta Basin Railway",
+   "mid": "1oAKzYyX8Vv1jjoPtNXsTSelY8Cw",
+   "blurb": "A Google Map for Uinta Basin Railway, derived from the preferred route information published in the Feasibility Study for the proposed to transport oil being produced in Uinta Basin, from locations in Uinta Basin to a location on the Union Pacific at Kyune, Utah.",
+   "related": "/utahrails/uinta-basin-railway.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Uinta Basin Railroad",
+   "placemarks": 4
+  },
+  {
+   "title": "UP 3rd West Industrial Lead",
+   "mid": "1zXntdWI74rweCDSAZwEmnXCaRK6MtQJs",
+   "blurb": "A Google map of Union Pacific's 3rd West Industrial Lead. Completed in 1953, the 1.7-mile line was an example of UP's invasion into D&RGW territory in the 1950s.",
+   "related": "/up/up-3rd-west-industrial-lead.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP 3rd West Industrial Lead",
+   "placemarks": 2
+  },
+  {
+   "title": "UP Centennial Business Park",
+   "mid": "1GZPzuFeKM2cGuhtWC5LksxGcYqk",
+   "blurb": "A Google Map of Union Pacific's Centennial industrial area in the vicinity of 1700 South and 4000 West in Salt Lake City.",
+   "related": "/up/west-side-business-parks.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Centennial Business Park",
+   "placemarks": 12
+  },
+  {
+   "title": "UP Crestline Relocation",
+   "mid": "1XjYX7e_yiz1XyRdFAMB1aJzWFQg",
+   "blurb": "A Google Map showing the 1982 line change that straightened the sharp curve at Crestline, Nevada, seven miles west of the Utah-Nevada line at Uvada.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Crestline Relocation",
+   "placemarks": 2
+  },
+  {
+   "title": "UP-D&RGW Small Arms Plant",
+   "mid": "15T2ZA7-gKHlAnzeG1Zm0O9Ws6Qc",
+   "blurb": "A Google Map of UP's Small Arms Plant industrial area in the vicinity of California Avenue and Redwood Road in Salt Lake City.",
+   "related": "/up/west-side-business-parks.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[UP-D&RGW Small Arms Plant]]>",
+   "placemarks": 25
+  },
+  {
+   "title": "UP-LA&SL Delta and Hinkley Branches",
+   "mid": "1G6th92m_0fp1miAHZ4qY0BGQ_aA",
+   "blurb": "A Google map created by Brian Burr, showing the UP (LA&SL) branches west of Delta, Utah.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Delta and Hinkley Branches",
+   "placemarks": 8
+  },
+  {
+   "title": "UP-LA&SL Fairfield Branch",
+   "mid": "1wInENj5x1SAEeUO-G3614R3EhGI",
+   "blurb": "A Google Map of the UP(LA&SL) Fairfield Branch, from Lehi to Tintic by way of Cedar and Rush valleys; completed as Salt Lake & Western in 1882; connection to Leamington Cutoff in 1903; parts abandoned in 1927 and 1938; branch abandoned and removed in 1942.",
+   "related": "/articles/tintic.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Fairfield Branch]]>",
+   "placemarks": 23
+  },
+  {
+   "title": "UP-LA&SL Fillmore Branch",
+   "mid": "1GiSTLJaSQUGpMDgoZKd93CSBdgA",
+   "blurb": "A Google Map of the Fillmore Branch. Delta to Fillmore, 32 miles, built in 1923.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Fillmore Branch",
+   "placemarks": 4
+  },
+  {
+   "title": "UP-LA&SL Tintic Area Branches",
+   "mid": "1KhOPHRD853tg6k5xxZM0yHbcG80",
+   "blurb": "A Google Map of UP's branches in the Tintic Mining District.",
+   "related": "/articles/tintic.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Tintic Area Branches]]>",
+   "placemarks": 23
+  },
+  {
+   "title": "UP Park City Branches",
+   "mid": "1iqLgVqtMYUjfrOI1sPeyg93mgyE",
+   "blurb": "A Google Map of the rail lines in and around Park City, Utah; includes locations of the major mines, drain tunnel, and aerial tramways.",
+   "related": "/mining/park-city-mining-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Park City Branches",
+   "placemarks": 43
+  },
+  {
+   "title": "UP Provo Subdivision, North",
+   "mid": "1EWOyDlhfx5_NSoV53OoOSHj9wMTlIEl7",
+   "blurb": "Google map of Union Pacific's Provo Subdivision, Salt Lake City to Orem. Includes overlay layers for portions sold to Utah Transit Authority in 1993 and 2002.",
+   "related": "/up/up-provo-sub.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Provo Subdivision, North",
+   "placemarks": 16
+  },
+  {
+   "title": "UP Provo Subdivision, South",
+   "mid": "163SbKfwO_7jxpZtsU5RDtc4D4WGEck5Z",
+   "blurb": "Google map of Union Pacific's Provo Subdivision, Lakota (Orem) to Lynndyl.",
+   "related": "/up/up-provo-sub.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UP Provo Subdivision, South",
+   "placemarks": 19
+  },
+  {
+   "title": "UTA TRAX Lines",
+   "mid": "1jN2fqGrCSv8ZlXwfQNOAoGyf_qU",
+   "blurb": "A Google Map of Utah Transit Authority's TRAX light rail line in Salt Lake Valley.",
+   "related": "/uta/uta-trax-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "UTA TRAX",
+   "placemarks": 12
+  },
+  {
+   "title": "Utah Coal",
+   "mid": "1D6Qq6FnrGlRt1L43mX8xnyv9s2A",
+   "blurb": "A Google Map of coal mining locations in Utah, past and present.",
+   "related": "/utahcoal/utahcoal-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Coal",
+   "placemarks": 113
+  },
+  {
+   "title": "Utah Copper - Kennecott Railroads",
+   "mid": "1AT3gWi8z-KWXhjoTSOJjvM57G7U",
+   "blurb": "A Google Map of the railroads of that served Bingham Canyon and the copper mills at Great Salt Lake, including Utah Copper, Kennecott Copper, Bingham & Garfield, and D&RGW.",
+   "related": "/bingham/bingham-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Copper - Kennecott Railroads",
+   "placemarks": 33
+  },
+  {
+   "title": "Utah Idaho Central",
+   "mid": "149umaBoCbFYy21wGnP9hVBr1OyQ",
+   "blurb": "A Google Map of the electric Utah Idaho Central Railroad between Ogden and Preston, Idaho.",
+   "related": "/utahrails/utah-idaho-central.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Idaho Central",
+   "placemarks": 102
+  },
+  {
+   "title": "Utah Railway",
+   "mid": "1_P3l-UZzYdJ_nfZbc2Vfm_s0CoY",
+   "blurb": "A Google Map of Utah Railway, including its major junctions and spurs to the mines that it served.",
+   "related": "/utah-ry/utah-ry-index.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Railway",
+   "placemarks": 76
+  },
+  {
+   "title": "Utah Southern Extension, York to Frisco",
+   "mid": "1n_mnVTrxe6sQJ36iSE55Z_Dy3_5RadlR",
+   "blurb": "A Google Map of the Utah Southern Railroad Extension of 1881, from York Creek to Frisco. (Read a timeline for the construction of the Utah Southern Railroad Extension)",
+   "related": "/utahrails/utah-southern-1871-1881.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "USRR Chicken Creek",
+   "placemarks": 12
+  },
+  {
+   "title": "Utah Western Ry. (1889-1890)",
+   "mid": "1wYiNdNCKXqOJbQZFQumiuO_OhtU",
+   "blurb": "John W. Young's unfinished railroad west and north of Salt Lake City.",
+   "related": "/utahrails/utah-western-1889.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Western Ry. (1889-1890)",
+   "placemarks": 6
+  },
+  {
+   "title": "UtahRails Industrials",
+   "mid": "1ob-OZahdKOhKTQqe41gkwhmpfc8",
+   "blurb": "A Google map with locations in Utah with locomotives.",
+   "related": "/industries/industries-locos.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "Utah Industrials",
+   "placemarks": 27
+  },
+  {
+   "title": "Wasatch & Jordan Valley Railway",
+   "mid": "15mzfB0zg6yBDlWyVbP1ibHGAiQo",
+   "blurb": "The narrow gauge line between Sandy and Alta, portions of which later became D&RGW's Little Cottonwood Branch.",
+   "related": "/utahrails/wasatch-jordan-valley-1872-1882.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[Wasatch & Jordan Valley Ry]]>",
+   "placemarks": 24
+  },
+  {
+   "title": "West of Milford",
+   "mid": "1Arz4rR8hCyQMSdNfMGnmYIl4C0s",
+   "blurb": "A Google Map of the railroads and mines in the area west of Milford, Utah.",
+   "related": "/utahrails/west-of-milford.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "<![CDATA[LA&SL Frisco and Newhouse Branches]]>",
+   "placemarks": 25
+  },
+  {
+   "title": "West Side Rapid Transit",
+   "mid": "1ob9mtsEIRhaq4dzpvJ7lpbTOpSg",
+   "blurb": "A Google Map developed by Ed Senior and Don Strack, showing the street railroad that operated on Salt Lake City's west side, and west of the Jordan River.",
+   "related": "/utahrails/west-side-rapid-transit.html",
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "West Side Rapid Transit",
+   "placemarks": 25
+  },
+  {
+   "title": "WP Arnold Loop west of Wendover",
+   "mid": "1Gr8Y3nPq5_8ev7n-uSMxJl1lRXo",
+   "blurb": "A Google Map that compares the 3 percent cutoff from the initial construction in 1907, to the later Arnold Loop, with a maximum of 1 percent, that was completed in May 1914.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "WP Arnold Loop",
+   "placemarks": 2
+  },
+  {
+   "title": "WP Ellerbeck Branch",
+   "mid": "1z6wtyPx6IUjLoHO3RXyczmvB_-0",
+   "blurb": "A Google Map of Western Pacific's Ellerbeck Branch in western Tooele Valley.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "WP Ellerbeck Branch",
+   "placemarks": 13
+  },
+  {
+   "title": "WP Marblehead Branch",
+   "mid": "1BecUngy4ihUdL2lYNG2T7wNNw4c",
+   "blurb": "A Google Map of WP's Marblehead Branch.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "WP Marblehead Branch ",
+   "placemarks": 3
+  },
+  {
+   "title": "WP Rowley Branch",
+   "mid": "1RoUmQkif7A8d_ZuFXuNBrwcKsIQ",
+   "blurb": "A Google Map of Western Pacific's Rowley Branch, located west of Great Salt Lake.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "WP Rowley Branch ",
+   "placemarks": 3
+  },
+  {
+   "title": "WP Tooele-Warner Branch",
+   "mid": "1sDtAWeYWMPyKB9w0DgYpy8xgUFE",
+   "blurb": "A Google Map of Western Pacific's Warner Branch between Burmester and Tooele.",
+   "related": null,
+   "section": "Google Maps of Utah Railroads",
+   "documentName": "WP Tooele-Warner ",
+   "placemarks": 25
+  },
+  {
+   "title": "James Sonntag's maps",
+   "mid": "1o9-_c1pbMO3l1sCFQ8OG-oASP_U",
+   "blurb": "",
+   "related": null,
+   "section": "Other Maps",
+   "documentName": "UTAH RAILROADS",
+   "placemarks": 25
+  },
+  {
+   "title": "Josh Bernhad's \"Railroads of the Tintic Mining District\"",
+   "mid": "1R40oXHCcRNXrqIhrN2xUaDwC9Gg",
+   "blurb": "A Google map of all the railroads that served the Tintic Mining District.",
+   "related": null,
+   "section": "Other Maps",
+   "documentName": "Railroads of the Tintic Mining District",
+   "placemarks": 251
+  },
+  {
+   "title": "Parker Wilson's map of the D&RGW Provo Canyon Branch",
+   "mid": "1999mhMt_SEe85RU6FAJuas-BZG8",
+   "blurb": "",
+   "related": null,
+   "section": "Other Maps",
+   "documentName": "RGW Provo Cañon Branch (1899-1938)",
+   "placemarks": 89
+  },
+  {
+   "title": "Utah History Research Center Map",
+   "mid": "1ZopxnJUzDvn-MCU0LMjRpKmxWmg",
+   "blurb": "A Google map of railroads in Utah, compiled in 2016 by a volunteer at the Utah History Research Center.",
+   "related": null,
+   "section": "Other Maps",
+   "documentName": "Utah Research Center Maps",
+   "placemarks": 116
+  },
+  {
+   "title": "Jacob Doughtery's Google map of Western Colorado Railroads",
+   "mid": "1dCjmssf0xNeeK0PltvdiFAztmgUlGpE",
+   "blurb": "A massive effort to document the mainlines and branches of the railroads of western Colorado.",
+   "related": null,
+   "section": "Other Maps",
+   "documentName": "Western Colorado Railroads",
+   "placemarks": 3120
+  }
+ ]
+}

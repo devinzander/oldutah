@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[D&RGW Castle Valley Branch]]></name>
+    <description>Salina to Nioche (20 miles); large parts of roadbed disturbed by construction of Interstate 70</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3131-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.131</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-3131-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.6965</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-3131-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3131-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3131-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3713-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.713</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-3713-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.5695</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-3713">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3713-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3713-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name><![CDATA[D&RGW Marysvale Branch]]></name>
+        <styleUrl>#line-E65100-3131-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8565958,38.9749927,0
+            -111.8730324,38.9496988,0
+            -111.874749,38.947229,0
+            -111.8765086,38.9458272,0
+            -111.8785256,38.9445922,0
+            -111.8900698,38.937883,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Castle Valley Branch]]></name>
+        <description>End of track at MP 20.</description>
+        <styleUrl>#line-E65100-3713</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8708436,38.9529194,0
+            -111.8703823,38.9533032,0
+            -111.8697278,38.9534367,0
+            -111.8689875,38.953395,0
+            -111.8684082,38.9532198,0
+            -111.8622284,38.950942,0
+            -111.8610375,38.950458,0
+            -111.8594925,38.9494067,0
+            -111.8584411,38.9486224,0
+            -111.8561558,38.9461359,0
+            -111.8534415,38.9429316,0
+            -111.8488066,38.9392182,0
+            -111.8439142,38.9358133,0
+            -111.8405668,38.9335433,0
+            -111.8388073,38.9328757,0
+            -111.8359749,38.9327088,0
+            -111.8338721,38.9328089,0
+            -111.8286364,38.9323749,0
+            -111.8230145,38.9318074,0
+            -111.8207829,38.9318742,0
+            -111.8046038,38.9329091,0
+            -111.7916004,38.9326754,0
+            -111.7877381,38.9314068,0
+            -111.7819016,38.9267329,0
+            -111.7777388,38.9252973,0
+            -111.7692415,38.923628,0
+            -111.7629759,38.9216247,0
+            -111.7560236,38.9203893,0
+            -111.7478268,38.9177849,0
+            -111.7395012,38.9163157,0
+            -111.7359822,38.9157481,0
+            -111.7328923,38.9159484,0
+            -111.729341,38.9163574,0
+            -111.727485,38.9160069,0
+            -111.7262458,38.9152723,0
+            -111.7253713,38.9149885,0
+            -111.7246203,38.9149926,0
+            -111.7241268,38.9151136,0
+            -111.7233356,38.9153599,0
+            -111.7227374,38.9154559,0
+            -111.7212595,38.9153599,0
+            -111.7203382,38.9151325,0
+            -111.719567,38.9148048,0
+            -111.7184432,38.9142538,0
+            -111.7172335,38.9134524,0
+            -111.7159086,38.9128096,0
+            -111.713516,38.9118829,0
+            -111.7116813,38.9107601,0
+            -111.7104904,38.9102049,0
+            -111.7091494,38.9097791,0
+            -111.7075615,38.9095704,0
+            -111.7032807,38.909704,0
+            -111.6968004,38.9077338,0
+            -111.6944079,38.9067152,0
+            -111.6909639,38.9052291,0
+            -111.6884427,38.9040853,0
+            -111.687064,38.9037722,0
+            -111.6855888,38.9036761,0
+            -111.682692,38.9038181,0
+            -111.6814636,38.9036637,0
+            -111.6801278,38.9033756,0
+            -111.6781966,38.9029582,0
+            -111.6764264,38.9027912,0
+            -111.6738837,38.9028078,0
+            -111.6727035,38.9027243,0
+            -111.6708635,38.9022192,0
+            -111.6689591,38.9014469,0
+            -111.6649787,38.9003865,0
+            -111.6627471,38.8996769,0
+            -111.6604941,38.8987917,0
+            -111.6577153,38.8977522,0
+            -111.6557788,38.8976166,0
+            -111.6544001,38.8974307,0
+            -111.6526299,38.897222,0
+            -111.6508596,38.897581,0
+            -111.6498135,38.8976144,0
+            -111.6473727,38.8973305,0
+            -111.6467236,38.8972929,0
+            -111.6460745,38.8973054,0
+            -111.6452913,38.8977062,0
+            -111.6436927,38.8988251,0
+            -111.6431047,38.8995249,0
+            -111.6426025,38.900542,0
+            -111.6425207,38.9015241,0
+            -111.6423356,38.9025532,0
+            -111.6420083,38.903242,0
+            -111.6414825,38.9038682,0
+            -111.6402917,38.9046613,0
+            -111.6389345,38.9051289,0
+            -111.637934,38.9051372,0
+            -111.6374271,38.9049452,0
+            -111.6366653,38.9042105,0
+            -111.6361075,38.9039934,0
+            -111.6351579,38.9038098,0
+            -111.6344445,38.9033589,0
+            -111.6338543,38.902691,0
+            -111.6335861,38.9017976,0
+            -111.6334037,38.9004658,0
+            -111.6333018,38.8997164,0
+            -111.6322772,38.8986163,0
+            -111.6310219,38.8978649,0
+            -111.6304856,38.8973973,0
+            -111.6293107,38.8960529,0
+            -111.6282727,38.8954392,0
+            -111.6266124,38.8951845,0
+            -111.6251748,38.8948338,0
+            -111.6218917,38.8935812,0
+            -111.6207331,38.8930385,0
+            -111.6196387,38.8925876,0
+            -111.6179006,38.8921366,0
+            -111.6161518,38.8913767,0
+            -111.6136787,38.8898778,0
+            -111.6113264,38.8884518,0
+            -111.6089205,38.8869674,0
+            -111.606968,38.8860905,0
+            -111.6056269,38.8856396,0
+            -111.6044788,38.8852471,0
+            -111.6029821,38.8845331,0
+            -111.6016008,38.884176,0
+            -111.5986101,38.8840611,0
+            -111.5972476,38.8836353,0
+            -111.5959762,38.8829588,0
+            -111.5950375,38.8823825,0
+            -111.5937125,38.8819816,0
+            -111.5919824,38.8819608,0
+            -111.5882139,38.8824409,0
+            -111.5869265,38.8823992,0
+            -111.585403,38.8821403,0
+            -111.5837507,38.8817645,0
+            -111.5823922,38.8815677,0
+            -111.575605,38.8816798,0
+            -111.573883,38.8815838,0
+            -111.572397,38.8812538,0
+            -111.5644255,38.8784476,0
+            -111.5591139,38.8771472,0
+            -111.5573544,38.8766753,0
+            -111.5561099,38.876053,0
+            -111.5551604,38.8752888,0
+            -111.5545113,38.8744578,0
+            -111.5540285,38.8734471,0
+            -111.5536315,38.8724364,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel No. 7</name>
+        <description>329 feet long</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7089915,38.9101092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel No. 8</name>
+        <description>586 feet long</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.699061,38.908482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sawtooth siding</name>
+        <description>Approximate; large wooden trestle</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6578516,38.8970017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel No. 9</name>
+        <description>301 feet long</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6405802,38.9038464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tunnel No. 10</name>
+        <description>269 feet long</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.638455,38.9048354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sevier Valley Coal mine</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5904352,38.8813693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crystal</name>
+        <description>Approximate; mile post 17.7</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5887631,38.882659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>End of Track</name>
+        <description>Approximate; mile post 20.0</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5529444,38.8725042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nioche (end of track after 1934)</name>
+        <description>Approximate; mile post 18.8</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5707908,38.881015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

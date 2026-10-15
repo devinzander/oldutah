@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>UP Crestline Relocation</name>
+    <description>1982 line change. Construction started in May 1982; first train operated on October 14, 1982.</description>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>New line</name>
+        <description>Started in May 1982; first train on October 14, 1982.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -114.101908,37.693839,0
+            -114.105828,37.691334,0
+            -114.10821,37.689925,0
+            -114.114611,37.686979,0
+            -114.115945,37.68624,0
+            -114.117458,37.685051,0
+            -114.119164,37.683184,0
+            -114.120505,37.68101,0
+            -114.125108,37.673359,0
+            -114.125955,37.671593,0
+            -114.126374,37.669954,0
+            -114.126542,37.66823,0
+            -114.126363,37.666803,0
+            -114.125998,37.665512,0
+            -114.125301,37.663966,0
+            -114.124482,37.662692,0
+            -114.120662,37.656815,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Old Line</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -114.103737,37.692752,0
+            -114.104767,37.692166,0
+            -114.105336,37.691946,0
+            -114.107364,37.69136,0
+            -114.10804,37.691063,0
+            -114.108608,37.690647,0
+            -114.109488,37.689882,0
+            -114.110035,37.689509,0
+            -114.110572,37.689305,0
+            -114.114198,37.688558,0
+            -114.117835,37.687768,0
+            -114.118586,37.687446,0
+            -114.119144,37.687064,0
+            -114.120571,37.685663,0
+            -114.121097,37.685323,0
+            -114.121708,37.685077,0
+            -114.122706,37.684933,0
+            -114.12748,37.68551,0
+            -114.128328,37.685383,0
+            -114.1288,37.684992,0
+            -114.129294,37.684483,0
+            -114.129401,37.683871,0
+            -114.129304,37.683345,0
+            -114.128832,37.682818,0
+            -114.126644,37.68101,0
+            -114.126064,37.680704,0
+            -114.125238,37.680551,0
+            -114.123629,37.680331,0
+            -114.122996,37.680084,0
+            -114.122599,37.679617,0
+            -114.122363,37.678946,0
+            -114.122491,37.678344,0
+            -114.125002,37.67431,0
+            -114.127985,37.669563,0
+            -114.128371,37.668654,0
+            -114.128392,37.668077,0
+            -114.12821,37.667228,0
+            -114.127534,37.666115,0
+            -114.125227,37.662922,0
+            -114.122545,37.659303,0
+            -114.121419,37.65786,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

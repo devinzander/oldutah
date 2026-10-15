@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Utah Coal</name>
+    <description><![CDATA[Blue=Pleasant Valley<br>Red=Helper area<br>Yellow=Book Cliffs<br>Violet=Emery]]></description>
+    <Style id="icon-101-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-101-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-101">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-101-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-101-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-111-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-111">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-111-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-111-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-123-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-123-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-157-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-157-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-157-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-166-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/166-purple-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-166-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/166-purple-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-166">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-166-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-166-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-33CC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-33CC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00cc33</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-33CC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-33CC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-33CC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-62AF44-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-62AF44-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-3131-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>3.131</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-62AF44-3131-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>4.6965</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-62AF44-3131">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-3131-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-3131-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-3519-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>3.519</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-62AF44-3519-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>5.2785</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-62AF44-3519">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-3519-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-3519-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-5000-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-62AF44-5000-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-62AF44-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-62AF44-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-62AF44-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff44af62</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-62AF44-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-62AF44-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-62AF44-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Aberdeen</name>
+        <description>Site of Aberdeen loadout; closed in 1924</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8012928,39.6885197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Castle Gate (East Pillar)</name>
+        <description>Site of the geologic rock formation.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8835077,39.7486418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Castle Gate (West Pillar)</name>
+        <description>Removed in 1962-1964, when the highway tunnel was removed.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8860393,39.7503985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate Mine No. 1
+</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8713372,39.7309425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate Mine No. 2
+</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8512997,39.7317211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 2 Tramway Tunnel</name>
+        <description><![CDATA[East portal "long tunnel"]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8607674,39.7286961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 2 Tramway Tunnel</name>
+        <description><![CDATA[West portal, "short tunnel"]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8584566,39.729025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 2 Tramway Tunnel</name>
+        <description><![CDATA[East portal, "short tunnel"]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8577163,39.7291653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 2 Tramway</name>
+        <description>Roadbed later used by Willow Creek conveyor system</description>
+        <styleUrl>#line-62AF44-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.8675976,39.7313684,0
+            -110.86675,39.7309146,0
+            -110.8660097,39.7305598,0
+            -110.8655162,39.730436,0
+            -110.8651943,39.7302132,0
+            -110.8648188,39.7299079,0
+            -110.8644111,39.7295779,0
+            -110.8640597,39.7294211,0
+            -110.8637915,39.7293241,0
+            -110.8636011,39.7291612,0
+            -110.8632708,39.7290305,0
+            -110.8622271,39.7288173,0
+            -110.8614812,39.7287175,0
+            -110.8607674,39.7286961,0
+            -110.8603958,39.7287527,0
+            -110.8593096,39.7289714,0
+            -110.8584566,39.729025,0
+            -110.8576734,39.7291075,0
+            -110.8569117,39.7291653,0
+            -110.8560855,39.7293963,0
+            -110.8556135,39.7296026,0
+            -110.8551629,39.7301224,0
+            -110.853344,39.7314622,0
+            -110.8524774,39.731703,0
+            -110.8516108,39.7317788,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 3</name>
+        <description>Vertical shaft mine, 1922-1937</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8785485,39.7421132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 4</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8522799,39.7330168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Peerless Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8889522,39.7558197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Loadout</name>
+        <description>Rolapp (Royal Coal Co.)</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8830732,39.746827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Gate No. 2 Tramway tunnel</name>
+        <description>West portal</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8636966,39.7292085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbia Mine</name>
+        <description>Site of U S Steel Columbia Mine.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.359582,39.512313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbia</name>
+        <description>Columbia townsite and coal loadout.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.376008,39.513409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Emery Deep Mine, "4 East" Portal]]></name>
+        <styleUrl>#icon-111-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.233096,38.873494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emery Deep Mine, Browning Portal</name>
+        <styleUrl>#icon-111-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.2566977,38.8604373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Valley Mine</name>
+        <description>Opened in 1980. Closed in 1986.</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -111.2728019,38.8167942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crandall Canyon Mine</name>
+        <description>Site of Anadalex mine.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.167793,39.459659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>C V Spur</name>
+        <description>Site of coal loadout.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.76843,39.53189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Mounds]]></name>
+        <description>Connection with Sunnyside Branch</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.591158,39.455906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Mine</name>
+        <description>Tower Resources; Andalex</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7296311,39.7021211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinnacle Mine</name>
+        <description>Andalex</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7303168,39.7062406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apex Mine</name>
+        <description>Andalex</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7276028,39.7105699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soldier Canyon mine</name>
+        <description>Soldier Creek Coal Co.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.6144065,39.7006486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sage Point</name>
+        <description>8,478 feet elvation</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.589323,39.6950358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dugout Canyon mine</name>
+        <description>Soldier Creek Coal Co.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.545764,39.6837911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banning</name>
+        <description>Loadout for Soldier Creek mine in Dugout Canyon</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.5687237,39.5204626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Ridge Mine</name>
+        <styleUrl>#icon-157-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.438347,39.616962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunnyside No. 2</name>
+        <styleUrl>#icon-157-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.3739896,39.5588133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Carbon</name>
+        <description>Site of Carbon County Ry. yard and shops</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.39547,39.532808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ECDC</name>
+        <description>Site of East Carbon Development Corp.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.465251,39.531609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Geneva Mine Loadout</name>
+        <description>Site of U S Steel Geneva mine loadout.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.3719301,39.4539371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Geneva Mine</name>
+        <description>Site of U S Steel Geneva mine.</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.354715,39.461018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lila Canyon Mine</name>
+        <description>Being developed for production to start in 2014</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -110.34315,39.427873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horizon Mine (Hidden Splendor)</name>
+        <description><![CDATA[Gordon Creek Canyon<br>Hidden Splendor<br>American West Resources]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.053195,39.693888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kenilworth Mine</name>
+        <description>Mine opening</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.811592,39.698173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kenilworth Tramway</name>
+        <styleUrl>#line-62AF44-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.8116504,39.6980893,0
+            -110.8117684,39.6974784,0
+            -110.8115216,39.6971399,0
+            -110.8108886,39.6965869,0
+            -110.8099552,39.6963722,0
+            -110.8088824,39.6961741,0
+            -110.8084961,39.6960172,0
+            -110.8084639,39.6958109,0
+            -110.8083352,39.694168,0
+            -110.8079704,39.6905603,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Kenilworth</name>
+        <description>Site of Kenilworth loadout</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.807955,39.69016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bull Hollow Mine</name>
+        <description>Opened in 1921 by Independent</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7969001,39.703276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winter Quarters Mine Loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1874115,39.7201979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winter Quarters Mine</name>
+        <description>1875 to 1928</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1880362,39.7161005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winter Quarters Mine Tramway</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.1879994,39.7162421,0
+            -111.1874361,39.7200754,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Skyline Mine</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.204321,39.685938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skyline Loadout</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.155977,39.684534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUFCO Mine</name>
+        <description>SUFCO Convulsion Canyon Mine</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -111.416191,38.915655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUFCO Jct</name>
+        <description>Junction of Convulsion Road with I-70</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -111.563639,38.880705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wellington Coal Wash</name>
+        <description>Site of former U S Steel coal wash plant.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.700388,39.525098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wildcat Loadout</name>
+        <description>Opened in 1985</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.914879,39.650112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colombine Mine</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.154368,39.731482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wattis Mine</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.022682,39.529698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Star Point Flood Loader</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.005216,39.523608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hiawatha Mines 1 and 2</name>
+        <description>Opened in 1907; closed in 1928</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0556945,39.4947932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 1</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.017916,39.4692458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 6</name>
+        <description>Opened in 1981; deactivated in 1988</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0513918,39.4807314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hiawatha Loadout</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0081234,39.4843447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohrland Loadout</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.016395,39.440394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohrland Mine (King Mine No. 2)</name>
+        <description>Closed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0406424,39.4428882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valley Camp Belina No. 1 Mine</name>
+        <description>White Oak mine; closed in 2003; reclaimed in 2005</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.187649,39.666962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clear Creek</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.151428,39.650112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sharp Loadout</name>
+        <description>On UP.</description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            -111.91618,39.579695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panther Coal Loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.863085,39.720903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panther Mine</name>
+        <description>Panther Coal Company</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.856144,39.720338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panther Tramway</name>
+        <styleUrl>#line-33CC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.8562853,39.7203279,0
+            -110.85762,39.7208153,0
+            -110.8585577,39.720919,0
+            -110.8599236,39.7209529,0
+            -110.8611212,39.7209384,0
+            -110.8619956,39.7208597,0
+            -110.8628624,39.7207735,0
+            -110.8633289,39.720839,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Quitchupah Creek Road</name>
+        <description>9.8 miles; completed September 2013</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.4343942,38.9056783,0
+            -111.4340723,38.9051936,0
+            -111.4325058,38.9059288,0
+            -111.4302953,38.9065469,0
+            -111.4284283,38.9072474,0
+            -111.4254241,38.9076314,0
+            -111.4220073,38.9076819,0
+            -111.420213,38.90754,0
+            -111.4172989,38.9078364,0
+            -111.4130115,38.9068637,0
+            -111.4114344,38.9068551,0
+            -111.4061766,38.9060209,0
+            -111.401027,38.903574,0
+            -111.398795,38.902572,0
+            -111.3977654,38.9019046,0
+            -111.3967358,38.9011528,0
+            -111.3956631,38.9007025,0
+            -111.3896118,38.8994833,0
+            -111.3881956,38.8984809,0
+            -111.3867361,38.8940554,0
+            -111.3855556,38.8930205,0
+            -111.3747843,38.8913668,0
+            -111.3734535,38.8910829,0
+            -111.369592,38.8890286,0
+            -111.36333,38.887748,0
+            -111.3604385,38.8809067,0
+            -111.3627236,38.8763108,0
+            -111.3604278,38.8727319,0
+            -111.3580689,38.8627686,0
+            -111.3597213,38.8576218,0
+            -111.3614805,38.8535951,0
+            -111.3569313,38.8437357,0
+            -111.3501723,38.8420306,0
+            -111.3450227,38.8422475,0
+            -111.3397224,38.8443369,0
+            -111.33004,38.8523841,0
+            -111.3275998,38.8529316,0
+            -111.3210579,38.8524031,0
+            -111.3187307,38.8516036,0
+            -111.3143053,38.8516715,0
+            -111.3108906,38.85224,0
+            -111.3074718,38.8516731,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>PacifiCorp Hunter power station</name>
+        <description>Coal-fired; built in 1978</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -111.028519,39.174256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PacifiCorp Huntington power station</name>
+        <description>Coal-fired; built in 1973</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -111.078064,39.378762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PacifiCorp Castle Gate power station</name>
+        <description>Coal-fired; built in 1954, 1957</description>
+        <styleUrl>#icon-166</styleUrl>
+        <Point>
+          <coordinates>
+            -110.864346,39.727199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valley Camp Loadout</name>
+        <description>Trucked from Belina mine</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.156664,39.697529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crandall Canyon</name>
+        <description>Site of vertical shaft completed in 1981 by Price River Coal Co. to access the Braztah mines; reclaimed circa 2002.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9175181,39.7505555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carbon Fuel Co. No. 2</name>
+        <description>Closed in 1971; coal seams worked from other locations by Braztah and Price River Coal. </description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9033989,39.7177673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carbon Fuel No. 3</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9000945,39.7140123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Canyon Coal Co. loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9185696,39.7000714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Standard Coal Co. loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9325814,39.6991056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Latuda</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9547848,39.706774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Coal Mine</name>
+        <description>Bear Canyon; built as Cameron Coal Co.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8844838,39.7444607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Coal Tramway</name>
+        <styleUrl>#line-62AF44-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.8843105,39.7445801,0
+            -110.8829533,39.7466053,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bull Hallow Tram and Incline</name>
+        <styleUrl>#line-62AF44-2744-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.7968992,39.7030116,0
+            -110.7980579,39.6992805,0
+            -110.8013624,39.6980918,0
+            -110.8018345,39.6968701,0
+            -110.8020061,39.6957474,0
+            -110.8017057,39.6948888,0
+            -110.8018345,39.6938321,0
+            -110.8028215,39.6927094,0
+            -110.804109,39.6913554,0
+            -110.8057827,39.6911243,0
+            -110.8075851,39.6910912,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Black Hawk Incline</name>
+        <description>Built in 1912; demolished in 1974 when King No. 1 mine was closed.</description>
+        <styleUrl>#line-62AF44-3519</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.0083983,39.4839813,0
+            -111.0177699,39.4695634,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>East Hiawatha Loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.023247,39.490095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 6 Truck Loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0432425,39.4791673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 4</name>
+        <description>Opened in 1974; closed in 1993</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0610544,39.4950932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 5</name>
+        <description>Opened in 1978; closed in 1983</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0597777,39.4944391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mines 4 and 5 truck loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0575783,39.4944722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohrland mine tram</name>
+        <description>Castle Valley Coal Co.; 1907</description>
+        <styleUrl>#line-62AF44-3131</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.0143441,39.4404485,0
+            -111.0241342,39.4391849,0
+            -111.0255289,39.4390772,0
+            -111.0270095,39.4389944,0
+            -111.0313064,39.4392719,0
+            -111.0316497,39.4393134,0
+            -111.0399217,39.4429052,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hiawatha mine tram</name>
+        <description>Consolidated Fuel; 1907</description>
+        <styleUrl>#line-62AF44-3131</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.0234124,39.4897753,0
+            -111.0235297,39.4902964,0
+            -111.0236256,39.4904657,0
+            -111.0237959,39.4905557,0
+            -111.0241285,39.4905495,0
+            -111.0330871,39.4897939,0
+            -111.0367993,39.4895456,0
+            -111.0379365,39.489678,0
+            -111.0385803,39.4898767,0
+            -111.0434297,39.4922282,0
+            -111.0442665,39.4925262,0
+            -111.0538367,39.4945299,0
+            -111.0555747,39.4946623,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sevier Valley Coal Co.</name>
+        <description>Crystal mine; 1930</description>
+        <styleUrl>#icon-111</styleUrl>
+        <Point>
+          <coordinates>
+            -111.59068,38.8814581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>King Mine No. 4 ventilation</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0672345,39.5065016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hiawatha No. 2 ventilation</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0594217,39.5061657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Canyon Truck Loadout</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0939603,39.4089111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Canyon No. 1 and No. 2 Mines</name>
+        <description>Production started in 1982; closed in 2003 and reclaimed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0951188,39.4096636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Canyon No. 3</name>
+        <description>Production started in 2003, mining the Blind seam</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0824509,39.4135126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Canyon No. 4
+</name>
+        <description>Mining the Tank seam</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.081961,39.4116886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deer Creek Mine</name>
+        <description><![CDATA[1971 to 2015; conveyor belt to UP&L Huntington power plant]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1144059,39.3587648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Byron Howard Mine</name>
+        <description>Active early 1930s to 1966. Reclaimed in 2013.</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1089123,39.3615069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smoky Hollow Mine</name>
+        <description>Proposed coal mine (1989-1995)</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5238178,37.2246486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Knight-Ideal No. 1 Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.680843,39.7132679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Knight-Ideal Loadout</name>
+        <description>No. 1 in Coal Creek canyon; No. 2 mine in Dugout canyon; tipple in Wellington</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7206725,39.5380518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilberg Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.12372,39.3212045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Des-Bee-Dove Mine Complex</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.0992651,39.3143915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beehive Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1017537,39.3167124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Dove Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1014962,39.3160193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deseret Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.101523,39.3155296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Diamond Mine</name>
+        <description>Abandoned truck mine; USGS Mahogany Point topo map</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.2054485,39.2759076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oliphant Mine</name>
+        <description>Abandoned truck mine; USGS Mahogany Point topo map</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.2124338,39.2748932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trail Mountain Mine</name>
+        <description>Changed to Fossil Rock mine in 2015; sealed in 2001</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1903164,39.3171705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PacifiCorp Cottonwood Portal</name>
+        <description>Originally a fan opening for Cottonwood-Wilberg complex mine, changed to conveyor outlet to truck loading site, reclaimed in 2018</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1888192,39.3176868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PacifiCorp Cottonwood Mine</name>
+        <description>Recalimed</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.125252,39.3209675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cottonwood tube conveyor
+</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.1888879,39.3175475,0
+            -111.1892097,39.3161199,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Union Pacific Mine</name>
+        <description>1881 to 1932</description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1546936,39.7221963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valley Camp Belina No. 2 Mine</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1533878,39.7032492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Utah Fuel's Utah Mine]]></name>
+        <description><![CDATA[Based on "Old Utah mine" note on Valley Camp Belina No. 2 mine map from 1974]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            -111.1547826,39.6938386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

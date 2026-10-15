@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Honerine Drain Tunnel, Bauer, Utah</name>
+    <description><![CDATA[More info:<br>https://utahrails.net/mining/combined-metals.php]]></description>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-1775-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>1.775</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-1775-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.6625</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-1775-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-1775-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-1775-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3F5BA9-1969-nodesc-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>1.969</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-3F5BA9-1969-nodesc-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>2.9535</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-3F5BA9-1969-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3F5BA9-1969-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3F5BA9-1969-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2155-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.155</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2155-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.2325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2155-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2155-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2155-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2348-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.348</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-2348-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.522</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2348">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2348-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2348-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Honerine Drain Tunnel</name>
+        <description>Approx. 6,800 feet; 1.3 miles; extended to Calumet in 1930, total length approx. 13,000 feet; 2.46 miles</description>
+        <styleUrl>#line-DB4436-2348</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.3613928,40.4701023,0
+            -112.3422861,40.4576501,0
+            -112.333467,40.4501802,0
+            -112.3312137,40.448253,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Calumet Extension, 1930</name>
+        <styleUrl>#line-DB4436-2155-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.3422861,40.4576501,0
+            -112.3314392,40.4484247,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bauer Mill Site</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3630786,40.4713715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Honerine Mine Surface Works</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3409182,40.4583971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calumet Mine Surface Works</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3308062,40.4485147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Harrison Mine Surface Works</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3294115,40.465005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galena King Mine Surface Works</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3325872,40.4590951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Rail Spur</name>
+        <styleUrl>#line-3F5BA9-1969-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.3503488,40.4803896,0
+            -112.3544097,40.4777863,0
+            -112.3552895,40.4772559,0
+            -112.3576499,40.4761868,0
+            -112.3598171,40.4754849,0
+            -112.3614049,40.4747013,0
+            -112.3619307,40.4742443,0
+            -112.362199,40.4735914,0
+            -112.3625852,40.4723834,0
+            -112.3637869,40.4710123,0
+            -112.3645808,40.4703022,0
+            -112.3659862,40.4695228,0
+            -112.3666031,40.4689943,0
+            -112.3667908,40.4683189,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blackhawk Resin Spur</name>
+        <styleUrl>#line-3F5BA9-1775-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.3613191,40.475746,0
+            -112.3618877,40.4743749,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Blackhawk Resin Mill Site</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3617589,40.4757134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

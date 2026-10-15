@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Central Utah Rail Project</name>
+    <description>Proposed rail line between Levan and Salina, including SUFCO truck route. (Updated May 2015)</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000099-5000-normal">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000099-5000-highlight">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000099-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000099-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000099-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-5000-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A61B4A-5000-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFCC00-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFCC00-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFCC00-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFCC00-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFCC00-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>UP Mainline</name>
+        <styleUrl>#line-FFCC00-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.951284,39.507915,0
+            -111.961434,39.497915,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Sharps</name>
+        <description><![CDATA[UP's Sharp station where SUFCO loadout is located]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.913948,39.578835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Utah Rail Project</name>
+        <description>Railroad line from Juab to Salina</description>
+        <styleUrl>#line-000099-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.952829,39.506061,0
+            -111.953559,39.505233,0
+            -111.953516,39.504206,0
+            -111.952014,39.50318,0
+            -111.950512,39.502484,0
+            -111.940985,39.499272,0
+            -111.936178,39.492782,0
+            -111.929398,39.48311,0
+            -111.929054,39.471517,0
+            -111.930385,39.463135,0
+            -111.929698,39.452995,0
+            -111.929355,39.444678,0
+            -111.931114,39.43142,0
+            -111.933088,39.421807,0
+            -111.936865,39.402709,0
+            -111.946735,39.383373,0
+            -111.948023,39.377701,0
+            -111.944804,39.369175,0
+            -111.941843,39.361245,0
+            -111.93532,39.355339,0
+            -111.931543,39.349233,0
+            -111.921072,39.325799,0
+            -111.91515,39.317566,0
+            -111.919355,39.309597,0
+            -111.922274,39.304085,0
+            -111.921587,39.301827,0
+            -111.921844,39.298439,0
+            -111.917124,39.29193,0
+            -111.915236,39.279241,0
+            -111.916523,39.266218,0
+            -111.909485,39.257379,0
+            -111.908884,39.240497,0
+            -111.900215,39.21051,0
+            -111.907425,39.195545,0
+            -111.909485,39.180776,0
+            -111.908627,39.159815,0
+            -111.907682,39.148501,0
+            -111.899357,39.139514,0
+            -111.879272,39.103556,0
+            -111.876526,39.093698,0
+            -111.875839,39.082906,0
+            -111.876268,39.066581,0
+            -111.879787,39.052252,0
+            -111.878328,39.034453,0
+            -111.882963,39.024985,0
+            -111.888371,39.013048,0
+            -111.896095,38.995373,0
+            -111.895924,38.983765,0
+            -111.90485,38.968151,0
+            -111.896181,38.9522,0
+            -111.88468,38.948529,0
+            -111.878607,38.946894,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UP-CURP Connection </name>
+        <description>Connection of UP and CURP</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.956606,39.502534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuba Narrows Bridge</name>
+        <description>Yuba Narrows; point of crossing for Central Utah Rail project</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.923636,39.306625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salina Terminal</name>
+        <description>Southern terminal for Central Utah Rail project</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.87835,38.947177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUFCO Jct</name>
+        <description>Junction of SUFCO Convulsion Road with I-70</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.56436,38.87914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUFCO Mine</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.415701,38.91568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alternative B3 North (Figure B-2)</name>
+        <description>To avoid wetlands, as recommended by May 2015 STB approval</description>
+        <styleUrl>#line-A61B4A-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.9315434,39.5328427,0
+            -111.9263935,39.5314525,0
+            -111.9191837,39.5287383,0
+            -111.9178104,39.5250309,0
+            -111.9162655,39.5191384,0
+            -111.919527,39.4925166,0
+            -111.922617,39.4771481,0
+            -111.9288823,39.448456,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Alternative B3, South (Figure B-2)</name>
+        <description>To avoid economic impact of removing agricultural production.</description>
+        <styleUrl>#line-A61B4A-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8797874,38.9464598,0
+            -111.9010735,38.9483289,0
+            -111.9215007,38.9516652,0
+            -111.922359,38.9623442,0
+            -111.9190979,38.9750245,0
+            -111.9099998,38.9857,0
+            -111.9086266,38.99037,0
+            -111.9079399,38.9983749,0
+            -111.9014168,39.0083799,0
+            -111.8983269,39.0182501,0
+            -111.8933487,39.0286523,0
+            -111.8888855,39.0395863,0
+            -111.8881989,39.0474524,0
+            -111.883564,39.0574505,0
+            -111.8768692,39.0697128,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

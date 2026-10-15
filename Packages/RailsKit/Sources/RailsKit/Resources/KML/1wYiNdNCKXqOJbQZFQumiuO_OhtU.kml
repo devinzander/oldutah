@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Utah Western Ry. (1889-1890)</name>
+    <description>Route taken from USGS Saltair quadrangle topographical maps, 1951 and 1972. Connection to RGW unknown.</description>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-2925-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>2.925</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-009D57-2925-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>4.3875</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-009D57-2925">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-2925-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-2925-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2733-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.733</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2733-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.0995</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2733-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2733-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2733-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2744-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.744</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2744-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.116</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2744-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2744-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2744-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2925-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.925</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2925-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.3875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2925-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2925-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2925-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Salt Lake City to Lake</name>
+        <styleUrl>#line-DB4436-2733-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.908256,40.7671121,0
+            -111.9082618,40.7808826,0
+            -112.1222967,40.8018352,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>North Line</name>
+        <styleUrl>#line-DB4436-2744-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.122345,40.8018474,0
+            -112.1228278,40.8019164,0
+            -112.1232247,40.8020301,0
+            -112.1236177,40.8022291,0
+            -112.1241018,40.8025702,0
+            -112.1266043,40.8047711,0
+            -112.1292114,40.8070043,0
+            -112.1314483,40.8088761,0
+            -112.1322154,40.8102362,0
+            -112.1326016,40.8118683,0
+            -112.1324729,40.8140688,0
+            -112.1320009,40.8162449,0
+            -112.1314752,40.8185349,0
+            -112.1301167,40.8221212,0
+            -112.1289868,40.8244503,0
+            -112.1278139,40.8259674,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>South Line</name>
+        <styleUrl>#line-DB4436-2925-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1223933,40.8018352,0
+            -112.1230316,40.8018718,0
+            -112.1237451,40.8017743,0
+            -112.1242869,40.8015997,0
+            -112.1246651,40.8013642,0
+            -112.1250218,40.8010312,0
+            -112.1401173,40.7835432,0
+            -112.1408857,40.7812655,0
+            -112.1418256,40.7790202,0
+            -112.1421272,40.7777763,0
+            -112.1447483,40.7748632,0
+            -112.1473478,40.7727625,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wye Track</name>
+        <styleUrl>#line-DB4436-2733-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1244103,40.8028179,0
+            -112.1242815,40.8025743,0
+            -112.1242386,40.8023428,0
+            -112.1242708,40.802022,0
+            -112.1243888,40.8017378,0
+            -112.124539,40.8015185,0
+            -112.1246624,40.8013885,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>RGW Alignment</name>
+        <description>Along 6th (700) West)</description>
+        <styleUrl>#line-009D57-2925</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.9111583,40.7743831,0
+            -111.9111369,40.7861143,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jeremy & Co. Salt Evaporation Ponds
+]]></name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1250276,40.8300573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

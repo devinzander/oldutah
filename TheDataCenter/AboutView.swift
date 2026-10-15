@@ -1,6 +1,6 @@
 //
 //  AboutView.swift
-//  The Data Center
+//  Old Utah
 //
 
 import SwiftUI
@@ -9,15 +9,15 @@ struct AboutView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(CatalogStore.self) private var catalog
 
-    private static let legalBase = "https://devinzander.github.io/the-prequel/thedatacenter/"
+    private static let legalBase = "https://devinzander.github.io/the-prequel/oldutah/"
 
     private var feedbackURL: URL {
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
         let device = UIDevice.current.userInterfaceIdiom == .pad ? "iPad" : "iPhone"
-        let body = "\n\n—\nThe Data Center \(version) (\(build)) · \(device) · iOS \(UIDevice.current.systemVersion)"
+        let body = "\n\n—\nOld Utah \(version) (\(build)) · \(device) · iOS \(UIDevice.current.systemVersion)"
         var c = URLComponents(string: "mailto:devin@zanderdevelopment.com")!
-        c.queryItems = [URLQueryItem(name: "subject", value: "The Data Center Feedback"),
+        c.queryItems = [URLQueryItem(name: "subject", value: "Old Utah Feedback"),
                         URLQueryItem(name: "body", value: body)]
         return c.url ?? URL(string: "mailto:devin@zanderdevelopment.com")!
     }
@@ -27,7 +27,7 @@ struct AboutView: View {
             List {
                 Section {
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("The Data Center reads the Utah digital collections published by the J. Willard Marriott Library at the University of Utah. Images, documents and recordings load directly from the library's site.")
+                        Text("Old Utah reads three public records of the state's past: the digital collections of the J. Willard Marriott Library, Don Strack's history of Utah's railroads, and the burial registers of Salt Lake City's cemeteries. Everything loads from its source.")
                         Text("The app has no account, advertising, purchases or analytics. Saved items and recent searches are stored on this device only.")
                     }
                     .font(.subheadline)
@@ -35,7 +35,7 @@ struct AboutView: View {
                     .padding(.vertical, 6)
                 }
 
-                Section("The archive") {
+                Section("Library") {
                     LabeledContent("Institutions", value: catalog.institutions.count.formatted())
                     LabeledContent("Collections", value: catalog.collectionCount.formatted())
                     Link(destination: UDL.base) {
@@ -47,7 +47,40 @@ struct AboutView: View {
                     Link(destination: UDL.harmfulLanguageURL) {
                         Label("Harmful language statement", systemImage: "text.book.closed")
                     }
-                    Text("Rights vary by item; each record lists its rights statement. The Data Center is an independent app and is not affiliated with the University of Utah.")
+                    Text("Rights vary by item; each record lists its rights statement. Old Utah is an independent app and is not affiliated with the University of Utah.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
+                Section("Railroads") {
+                    Link(destination: URL(string: "https://utahrails.net/")!) {
+                        Label("utahrails.net", systemImage: "safari")
+                    }
+                    Link(destination: URL(string: "https://donstrack.smugmug.com/")!) {
+                        Label("donstrack.smugmug.com", systemImage: "photo.on.rectangle")
+                    }
+                    Link(destination: URL(string: "https://utahrails.net/copyright-info.html")!) {
+                        Label("Copyright at UtahRails.net", systemImage: "c.circle")
+                    }
+                    Text("The railroad pages, documents and photographs are Don Strack's, presented here with his permission. UtahRails.net is a private, non-commercial site he has kept since 2002.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
+                Section("Cemeteries") {
+                    Link(destination: URL(string: "https://www.slc.gov/cemetery/")!) {
+                        Label("Salt Lake City Cemetery", systemImage: "building.columns")
+                    }
+                    Link(destination: URL(string: "https://www.mountolivetcemetery.org/")!) {
+                        Label("Mount Olivet Cemetery", systemImage: "building.columns")
+                    }
+                    Link(destination: URL(string: "https://ushpo.utah.gov/cemetery/")!) {
+                        Label("Utah Cemeteries & Burials Database", systemImage: "doc.text")
+                    }
+                    Link(destination: URL(string: "https://gravelocator.cem.va.gov/")!) {
+                        Label("VA Nationwide Gravesite Locator", systemImage: "shield")
+                    }
+                    Text("Records are read live from each source and can lag the office's ledger by days. Corrections go to the cemetery. Old Utah is not affiliated with any cemetery, Salt Lake City, the State of Utah or the VA.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }

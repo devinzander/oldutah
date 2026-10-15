@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Logan Rapid Transit</name>
+    <description>East from the OSL depot at 6th West, east along Center Street to Main Street, then north along Main Street to 4th North, then east along 4th North to 6th East; service to Utah Agricultural College from 7th East.</description>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0BA9CC-3906-nodesc-normal">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0BA9CC-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ffcca90b</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0BA9CC-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0BA9CC-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0BA9CC-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4100-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-4100-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6.15</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4681-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-DB4436-4681-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Logan Rapid Transit</name>
+        <description><![CDATA[Changed to bus route in 1924. Original LRT line north from  9th North to Hyde Park was abandoned after OL&I was completed to Preston in 1915.]]></description>
+        <styleUrl>#line-DB4436-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8497252,41.7316191,0
+            -111.8349691,41.7313639,0
+            -111.8347252,41.7390334,0
+            -111.8193734,41.7388007,0
+            -111.8190865,41.745601,0
+            -111.8190724,41.7457902,0
+            -111.8190154,41.7460273,0
+            -111.8180055,41.7483268,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL Main Line</name>
+        <styleUrl>#line-0BA9CC-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8499398,41.7358945,0
+            -111.8500686,41.7316031,0
+            -111.8502939,41.729105,0
+            -111.8505406,41.727968,0
+            -111.8508196,41.7271993,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL Depot</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8503368,41.7317552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Agricultural College</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8142021,41.7408421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UIC to Smithfield</name>
+        <styleUrl>#line-009D57-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8347478,41.7391049,0
+            -111.8346298,41.7440602,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UIC to Providence</name>
+        <styleUrl>#line-009D57-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8349624,41.7313069,0
+            -111.8351555,41.7251174,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Agricultural College Line</name>
+        <styleUrl>#line-DB4436-4100-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8193734,41.7388007,0
+            -111.8168409,41.7387557,0
+            -111.8167711,41.740651,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

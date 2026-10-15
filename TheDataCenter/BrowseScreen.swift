@@ -42,7 +42,7 @@ struct BrowseScreen: View {
                 .padding(.bottom, 8)
                 .onChange(of: mode) { Haptics.select() }
             }
-            .navigationTitle("The Data Center")
+            .navigationTitle("Library")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { Haptics.tap(); showAbout = true } label: {

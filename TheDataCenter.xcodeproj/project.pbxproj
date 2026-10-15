@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA7ACE000000000000000020 /* RailsKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA7ACE000000000000000024 /* RailsKit */; };
+		DA7ACE000000000000000021 /* CemeteryKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA7ACE000000000000000025 /* CemeteryKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		DA7ACE000000000000000004 /* TheDataCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TheDataCenter.app; path = "The Data Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7ACE000000000000000004 /* TheDataCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TheDataCenter.app; path = "Old Utah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7ACE000000000000000020 /* RailsKit in Frameworks */,
+				DA7ACE000000000000000021 /* CemeteryKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,10 @@
 				DA7ACE000000000000000005 /* TheDataCenter */,
 			);
 			name = TheDataCenter;
+			packageProductDependencies = (
+				DA7ACE000000000000000024 /* RailsKit */,
+				DA7ACE000000000000000025 /* CemeteryKit */,
+			);
 			productName = TheDataCenter;
 			productReference = DA7ACE000000000000000004 /* TheDataCenter.app */;
 			productType = "com.apple.product-type.application";
@@ -91,6 +102,10 @@
 				Base,
 			);
 			mainGroup = DA7ACE000000000000000002;
+			packageReferences = (
+				DA7ACE000000000000000022 /* XCLocalSwiftPackageReference "Packages/RailsKit" */,
+				DA7ACE000000000000000023 /* XCLocalSwiftPackageReference "Packages/CemeteryKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DA7ACE000000000000000003 /* Products */;
 			projectDirPath = "";
@@ -183,7 +198,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinzander.thedatacenter;
-				PRODUCT_NAME = "The Data Center";
+				PRODUCT_NAME = "Old Utah";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -207,7 +222,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinzander.thedatacenter;
-				PRODUCT_NAME = "The Data Center";
+				PRODUCT_NAME = "Old Utah";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -238,6 +253,28 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DA7ACE000000000000000022 /* XCLocalSwiftPackageReference "Packages/RailsKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RailsKit;
+		};
+		DA7ACE000000000000000023 /* XCLocalSwiftPackageReference "Packages/CemeteryKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CemeteryKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA7ACE000000000000000024 /* RailsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RailsKit;
+		};
+		DA7ACE000000000000000025 /* CemeteryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CemeteryKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA7ACE000000000000000001 /* Project object */;
 }

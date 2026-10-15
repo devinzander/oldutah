@@ -1,107 +1,107 @@
 //
 //  SearchScreen.swift
-//  The Data Center
+//  Old Utah
 //
-//  The search tab: system search field in the tab bar, scopes for the
-//  archive's media types, suggestions from recent searches and collection
-//  names, then the shared results view.
+//  The search tab: one search field in the tab bar, scoped to the library,
+//  the railroad pages or the cemetery registers. Library results narrow
+//  further by format, institution and year once they arrive.
 //
 
 import SwiftUI
-
-enum SearchScope: String, CaseIterable, Identifiable {
-    case all, images, text, sound, video
-    var id: String { rawValue }
-    var label: String {
-        switch self {
-        case .all: return "All"
-        case .images: return "Images"
-        case .text: return "Text"
-        case .sound: return "Audio"
-        case .video: return "Video"
-        }
-    }
-    /// The site's type facet for the scope — wildcard for the two image
-    /// vocabularies it uses.
-    var filter: FacetFilter? {
-        switch self {
-        case .all: return nil
-        case .images: return FacetFilter(field: "facet_type_t", value: "Image*", label: "Images")
-        case .text: return FacetFilter(field: "facet_type_t", value: "\"Text\"", label: "Text")
-        case .sound: return FacetFilter(field: "facet_type_t", value: "\"Sound\"", label: "Audio")
-        case .video: return FacetFilter(field: "facet_type_t", value: "Image/MovingImage", label: "Video")
-        }
-    }
-}
+import RailsKit
+import CemeteryKit
 
 struct SearchScreen: View {
     @Environment(CatalogStore.self) private var catalog
     @Environment(SavedStore.self) private var saved
+    @Environment(AppRouter.self) private var router
     @State private var text = ""
-    @State private var scope: SearchScope = .all
     @State private var model = ResultsModel(query: SearchQuery())
-    @State private var submitted = false
+    /// The submitted text; empty shows the scope's landing page.
+    @State private var submitted = ""
+
+    private var prompt: String {
+        switch router.searchScope {
+        case .library: return "Search titles, subjects and full text"
+        case .railroads: return "Search railroad page titles"
+        case .graves: return "Last name, or Last, First"
+        }
+    }
 
     var body: some View {
+        @Bindable var router = router
         NavigationStack {
             Group {
-                if submitted {
-                    ResultsView(model: model) {
-                        Text(model.query.text.isEmpty ? "Everything" : "“\(model.query.text)”")
-                            .font(.system(.title2, design: .serif, weight: .semibold))
-                            .lineLimit(2)
-                    }
+                if submitted.isEmpty {
+                    landing
                 } else {
-                    SearchLanding(onPick: { term in
-                        text = term
-                        submit()
-                    })
+                    switch router.searchScope {
+                    case .library:
+                        ResultsView(model: model) {
+                            Text("“\(submitted)”")
+                                .font(.system(.title2, design: .serif, weight: .semibold))
+                                .lineLimit(2)
+                        }
+                    case .railroads:
+                        RailsSearchResults(query: submitted)
+                    case .graves:
+                        CemeterySearchResults(query: submitted)
+                    }
                 }
             }
             .navigationTitle("Search")
             .navigationBarTitleDisplayMode(.inline)
             .dataCenterDestinations()
         }
-        .searchable(text: $text, prompt: "Search titles, subjects and full text")
-        .searchScopes($scope, activation: .onSearchPresentation) {
-            ForEach(SearchScope.allCases) { Text($0.label).tag($0) }
+        .searchable(text: $text, prompt: prompt)
+        .searchScopes($router.searchScope, activation: .onSearchPresentation) {
+            ForEach(Archive.allCases) { Text($0.label).tag($0) }
         }
         .searchSuggestions { suggestions }
         .searchToolbarBehavior(.minimize)
         .onSubmit(of: .search) { submit() }
-        .onChange(of: scope) {
+        .onChange(of: router.searchScope) {
             Haptics.select()
-            if submitted { model.setType(scope.filter) }
+            if !submitted.isEmpty { submit() }
         }
         .onChange(of: text) {
             // Clearing the field returns to the landing page.
-            if text.isEmpty && submitted && model.query.text.isEmpty == false {
-                submitted = false
-            }
+            if text.isEmpty { submitted = "" }
+        }
+    }
+
+    @ViewBuilder
+    private var landing: some View {
+        switch router.searchScope {
+        case .library: SearchLanding(onPick: pick)
+        case .railroads: RailsSearchLanding(onPick: pick)
+        case .graves: CemeterySearchLanding(onPick: pick)
         }
     }
 
     @ViewBuilder
     private var suggestions: some View {
         let q = text.trimmingCharacters(in: .whitespaces)
-        if q.isEmpty {
-            ForEach(saved.recentSearches, id: \.self) { term in
-                Label(term, systemImage: "clock").searchCompletion(term)
-            }
-        } else {
-            let recents = saved.recentSearches.filter { $0.localizedCaseInsensitiveContains(q) && $0 != q }.prefix(3)
-            ForEach(Array(recents), id: \.self) { term in
-                Label(term, systemImage: "clock").searchCompletion(term)
-            }
-            let collections = catalog.allCollections.filter { $0.title.localizedCaseInsensitiveContains(q) }.prefix(5)
-            if !collections.isEmpty {
-                Section("Collections") {
-                    ForEach(Array(collections)) { c in
-                        NavigationLink(value: c) {
-                            Label {
-                                Text(c.title)
-                            } icon: {
-                                Image(systemName: "books.vertical")
+        if router.searchScope == .library {
+            if q.isEmpty {
+                ForEach(saved.recentSearches, id: \.self) { term in
+                    Label(term, systemImage: "clock").searchCompletion(term)
+                }
+            } else {
+                let recents = saved.recentSearches.filter { $0.localizedCaseInsensitiveContains(q) && $0 != q }.prefix(3)
+                ForEach(Array(recents), id: \.self) { term in
+                    Label(term, systemImage: "clock").searchCompletion(term)
+                }
+                let collections = catalog.allCollections.filter { $0.title.localizedCaseInsensitiveContains(q) }.prefix(5)
+                if !collections.isEmpty {
+                    Section("Collections") {
+                        ForEach(Array(collections)) { c in
+                            NavigationLink(value: c) {
+                                Label {
+                                    Text(c.title)
+                                } icon: {
+                                    Image(systemName: "books.vertical")
+                                }
                             }
                         }
                     }
@@ -110,13 +110,19 @@ struct SearchScreen: View {
         }
     }
 
+    private func pick(_ term: String) {
+        text = term
+        submit()
+    }
+
     private func submit() {
         let term = text.trimmingCharacters(in: .whitespacesAndNewlines)
-        var q = SearchQuery(text: term)
-        if let f = scope.filter { q.filters = [f] }
-        saved.noteSearch(term)
-        model.query = q
-        submitted = true
+        guard !term.isEmpty else { return }
+        if router.searchScope == .library {
+            saved.noteSearch(term)
+            model.query = SearchQuery(text: term)
+        }
+        submitted = term
     }
 }
 
@@ -189,7 +195,7 @@ struct SearchLanding: View {
 
                 VStack(alignment: .leading, spacing: 8) {
                     SectionLabel(text: "Tips")
-                    Text("Quote a phrase to match it exactly. Use the scope bar to limit results to images, text, audio or video, then refine by institution, collection and year.")
+                    Text("Quote a phrase to match it exactly. Results can be narrowed by format, institution, collection and year.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }

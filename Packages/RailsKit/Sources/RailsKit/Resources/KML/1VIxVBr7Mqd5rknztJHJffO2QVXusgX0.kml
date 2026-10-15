@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[D&RGW Lark Branch]]></name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-4681-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-4681-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-4875-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-E65100-4875-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-E65100-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-4681-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>4.681</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-4681-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>7.0215</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-4681">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-4681-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-4681-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-5650-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>5.65</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-5650-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>8.475</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-5650-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-5650-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-5650-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name><![CDATA[D&RGW Dalton & Lark Branch]]></name>
+        <description>3.5 miles; Built in 1903; connection to Bingham Branch changed in 1971 when the Bingham Branch was moved to the north.</description>
+        <styleUrl>#line-E65100-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0598746,40.5613149,0
+            -112.0604164,40.5612599,0
+            -112.0609368,40.5611723,0
+            -112.061441,40.5608992,0
+            -112.0618782,40.5603194,0
+            -112.062015,40.5596419,0
+            -112.0616475,40.5589643,0
+            -112.0610226,40.5583846,0
+            -112.0604332,40.5576871,0
+            -112.0601442,40.5569571,0
+            -112.0605639,40.5555459,0
+            -112.0612278,40.5540776,0
+            -112.0688219,40.5387459,0
+            -112.0696689,40.5382814,0
+            -112.0705648,40.5381102,0
+            -112.0717449,40.5381224,0
+            -112.0744271,40.5382692,0
+            -112.0767874,40.5384323,0
+            -112.0783539,40.5384812,0
+            -112.0798344,40.5381877,0
+            -112.0804567,40.5376495,0
+            -112.0810146,40.5371277,0
+            -112.0829029,40.5333442,0
+            -112.085628,40.5303923,0
+            -112.0870228,40.5292996,0
+            -112.0882673,40.5285494,0
+            -112.0893938,40.5282395,0
+            -112.0913679,40.5279459,0
+            -112.0939858,40.5275463,0
+            -112.0956488,40.5273099,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW New Lark Branch]]></name>
+        <description>Built in 1955; removed after 1971</description>
+        <styleUrl>#line-E65100-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0778452,40.538644,0
+            -112.0788538,40.5389049,0
+            -112.0804202,40.5397691,0
+            -112.0866644,40.5435359,0
+            -112.0878874,40.5440414,0
+            -112.0889603,40.5440414,0
+            -112.0900976,40.5437153,0
+            -112.0908271,40.5432261,0
+            -112.0946681,40.53822,0
+            -112.094947,40.5376166,0
+            -112.0949899,40.5369969,0
+            -112.0949899,40.5363772,0
+            -112.094711,40.5357412,0
+            -112.0940672,40.5348932,0
+            -112.09293,40.5331319,0
+            -112.0928442,40.5324796,0
+            -112.0929515,40.5317946,0
+            -112.093166,40.5310444,0
+            -112.0940672,40.5291199,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Mascotte Tunnel Portal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0980496,40.5270711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bingham-Lark Tunnel Portal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0966525,40.5278399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U. S. Mine loadout</name>
+        <description>1955 to 1971</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0940228,40.5295798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>U. S. Mine loadout</name>
+        <description>1903 to 1955</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0952137,40.5275044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Bingham Branch]]></name>
+        <styleUrl>#line-F9A825-5650-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0443508,40.565762,0
+            -112.0403275,40.5657294,0
+            -112.0376668,40.5657539,0
+            -112.0360574,40.5658354,0
+            -112.035285,40.5660147,0
+            -112.0339975,40.5666748,0
+            -112.0296845,40.5687938,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>1971 Extension
+</name>
+        <description>1.4 miles; portion of original Bingham Branch from connection on new 1971 alignment, to the former Revere Station connection with the original Lark Branch</description>
+        <styleUrl>#line-F9A825-4681</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.059756,40.5613318,0
+            -112.0576318,40.5613481,0
+            -112.0536942,40.5613481,0
+            -112.0496602,40.5614459,0
+            -112.0466561,40.5616741,0
+            -112.0436842,40.5623425,0
+            -112.0397897,40.5636629,0
+            -112.0370645,40.5649915,0
+            -112.0340175,40.5665644,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Revere Station
+</name>
+        <description>On original Bingham Branch; retired in 1871</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0598129,40.5614498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

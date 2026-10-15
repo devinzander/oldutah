@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>UP 3rd West Industrial Lead</name>
+    <description>Built in 1953, this 1.7-mile line provided access for several rail customers in the central part of the Salt Lake valley.</description>
+    <Style id="line-558B2F-4100-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-558B2F-4100-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-558B2F-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-558B2F-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-558B2F-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-3519-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>3.519</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-3519-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.2785</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-3519-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-3519-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-3519-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>UP 3rd West Industrial Lead</name>
+        <styleUrl>#line-E65100-3519-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.9025146,40.7501833,0
+            -111.9025414,40.7496265,0
+            -111.9026138,40.7484927,0
+            -111.9027748,40.747686,0
+            -111.9027775,40.7468772,0
+            -111.9027238,40.746482,0
+            -111.9027078,40.7439247,0
+            -111.9026433,40.7434369,0
+            -111.9025361,40.7428598,0
+            -111.9024824,40.7258362,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Interchange Track]]></name>
+        <description><![CDATA[Former Salt Lake & Utah]]></description>
+        <styleUrl>#line-558B2F-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.8984941,40.7388264,0
+            -111.9057468,40.7335504,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

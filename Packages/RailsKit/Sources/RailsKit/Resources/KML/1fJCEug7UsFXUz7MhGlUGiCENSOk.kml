@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>SP-CP North From Ogden</name>
+    <description>Locating the former SP-CP Promontory line from Ogden, north to Corinne. Hot Springs to Perry location from 1955 USGS topo map, before Willard Bay Reservoir was built.</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>SP-CP Promontory Branch</name>
+        <description>Ogden to Corinne Junction,</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.08123,41.53884,0
+            -112.08026,41.53828,0
+            -112.07919,41.53746,0
+            -112.07803,41.53627,0
+            -112.07146,41.52323,0
+            -112.05505,41.4912,0
+            -112.05419,41.48892,0
+            -112.0538,41.48725,0
+            -112.05395,41.4822,0
+            -112.05702,41.44478,0
+            -112.05788,41.42276,0
+            -112.057747,41.422078,0
+            -112.057157,41.421129,0
+            -112.04162,41.39059,0
+            -112.04117,41.3883,0
+            -112.04252,41.36573,0
+            -112.04301,41.35957,0
+            -112.04232,41.35616,0
+            -112.03913,41.3487,0
+            -112.03142,41.33196,0
+            -112.01265,41.28931,0
+            -111.99563,41.25025,0
+            -111.98814,41.23438,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Corinne Junction</name>
+        <description>SP-CP Promontory Line connected with OSL Malad Branch in 1903.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.080803,41.539342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cecil Junction</name>
+        <description>SP-CP Promontory Line branched off from Lucin Cutoff in 1903.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.987376,41.23493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[1869 CP-UP "Junction"]]></name>
+        <description><![CDATA[Approximate site of 1869 agreement for the junction between UP and CP, "five miles west of Ogden"]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.012267,41.290738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP-OSL Hot Springs siding</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.039261,41.352201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Utah Northern connection, 1871</name>
+        <description>The narrow gauge Utah Northern laid its first rail near this location in November 1871. Perry was then known as Three Mile Creek.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.054517,41.456815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP-OSL Perry Station site</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.052125,41.456671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP-OSL Willard Station site</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.048788,41.4105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SP-CP Zenda siding</name>
+        <description>Approximate location of CP Zenda siding.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.056813,41.42207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SP-CP Bonneville Station site</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0403552,41.352201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

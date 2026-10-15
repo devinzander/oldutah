@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Syracuse Branches</name>
+    <description/>
+    <Style id="icon-158-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-158-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-158-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-158-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-158-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000099-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000099-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff990000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000099-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000099-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000099-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2550-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.55</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2550-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.825</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2550-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2550-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2550-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>OSL Syracuse Branch</name>
+        <description>Ogden and Syracuse Railway, 1887</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.028768,41.10951,0
+            -112.045977,41.105404,0
+            -112.05441,41.103261,0
+            -112.062789,41.101248,0
+            -112.082069,41.096615,0
+            -112.102733,41.09153,0
+            -112.111326,41.089484,0
+            -112.112035,41.089314,0
+            -112.112668,41.089266,0
+            -112.113826,41.089266,0
+            -112.115977,41.089266,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL Syracuse Barnch Wye</name>
+        <description>North leg of wye track</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.116047,41.089262,0
+            -112.116562,41.089266,0
+            -112.11704,41.089326,0
+            -112.117522,41.089423,0
+            -112.117984,41.089605,0
+            -112.118434,41.089868,0
+            -112.118804,41.090191,0
+            -112.119094,41.090555,0
+            -112.119282,41.090927,0
+            -112.119808,41.092718,0
+            -112.120709,41.095843,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL Syracuse Branch</name>
+        <description>South leg of wye track</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.116664,41.089249,0
+            -112.117222,41.089185,0
+            -112.11764,41.088946,0
+            -112.117898,41.088728,0
+            -112.118166,41.088311,0
+            -112.118316,41.087895,0
+            -112.118236,41.087357,0
+            -112.117485,41.084899,0
+            -112.116905,41.082699,0
+            -112.116315,41.080775,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>OSL Syracuse Branch</name>
+        <description>West leg of wye track</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.119271,41.090818,0
+            -112.118348,41.087931,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Steed Spur</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.0837,41.096248,0
+            -112.083861,41.096207,0
+            -112.084064,41.096195,0
+            -112.08437,41.09624,0
+            -112.084547,41.096357,0
+            -112.084875,41.096628,0
+            -112.086403,41.098313,0
+            -112.088978,41.100812,0
+            -112.090952,41.102437,0
+            -112.09312,41.104264,0
+            -112.095952,41.107376,0
+            -112.098227,41.110197,0
+            -112.100587,41.113512,0
+            -112.102432,41.116817,0
+            -112.102883,41.117836,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>DRGW South Syracuse Branch</name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.992698,41.066976,0
+            -111.993095,41.0673,0
+            -111.993513,41.06751,0
+            -111.994178,41.067583,0
+            -111.998867,41.067567,0
+            -112.007428,41.067559,0
+            -112.02276,41.067631,0
+            -112.031053,41.067664,0
+            -112.034905,41.068125,0
+            -112.036085,41.06874,0
+            -112.037587,41.0706,0
+            -112.03896,41.072493,0
+            -112.04057,41.073204,0
+            -112.041299,41.073285,0
+            -112.042372,41.073285,0
+            -112.044947,41.073301,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Layton Sugar Factory</name>
+        <description><![CDATA[Served by OSL and D&RGW joint trackage]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.987623,41.066345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UP Mainline</name>
+        <styleUrl>#line-000099-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -111.967685,41.058644,0
+            -111.984078,41.069322,0
+            -112.002918,41.081518,0
+            -112.005836,41.083944,0
+            -112.016522,41.097432,0
+            -112.029311,41.114764,0
+            -112.034675,41.122135,0
+            -112.035233,41.124722,0
+            -112.03562,41.138233,0
+            -112.036092,41.148866,0
+            -112.036607,41.150869,0
+            -112.044246,41.170707,0
+            -112.044803,41.173776,0
+            -112.044846,41.176425,0
+            -112.044503,41.179364,0
+            -112.043344,41.182885,0
+            -112.041971,41.185598,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Mainline]]></name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.044074,41.185146,0
+            -112.046048,41.18198,0
+            -112.047292,41.178266,0
+            -112.047292,41.174907,0
+            -112.045962,41.15381,0
+            -112.044589,41.132124,0
+            -112.043816,41.124786,0
+            -112.042743,41.122491,0
+            -112.041027,41.119905,0
+            -112.028152,41.10584,0
+            -112.013003,41.08912,0
+            -111.996824,41.071457,0
+            -111.981289,41.054566,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Hooper Branch]]></name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.046429,41.160603,0
+            -112.046601,41.160208,0
+            -112.047019,41.159876,0
+            -112.047502,41.159779,0
+            -112.049616,41.159788,0
+            -112.055999,41.159828,0
+            -112.064228,41.159804,0
+            -112.073863,41.159804,0
+            -112.080483,41.16049,0
+            -112.088443,41.161177,0
+            -112.096029,41.161872,0
+            -112.098926,41.162057,0
+            -112.108453,41.161985,0
+            -112.111831,41.161998,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hooper Cannery Spur</name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.114,41.16675,0
+            -112.113882,41.16377,0
+            -112.113839,41.163035,0
+            -112.113506,41.162574,0
+            -112.113023,41.162275,0
+            -112.112315,41.162057,0
+            -112.111875,41.162017,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Hooper Cannery</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.115006,41.165765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cox Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.151479,41.162288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roy Cannery</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.046406,41.153963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hooper Junction</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.046219,41.160403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kingsville</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.083464,41.13867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Point Cannery</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.08807,41.11889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Kingsville Spur]]></name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.081726,41.160539,0
+            -112.082198,41.160426,0
+            -112.082584,41.160264,0
+            -112.083163,41.159772,0
+            -112.083356,41.159287,0
+            -112.083464,41.158681,0
+            -112.08352,41.15372,0
+            -112.08364,41.13797,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Farnsworth Spur]]></name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.08365,41.1397,0
+            -112.08384,41.13935,0
+            -112.08771,41.13448,0
+            -112.088163,41.13384,0
+            -112.088335,41.13327,0
+            -112.088329,41.118355,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D&RGW Cox Extension]]></name>
+        <styleUrl>#line-009D57-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.111896,41.161994,0
+            -112.115662,41.161999,0
+            -112.121895,41.162081,0
+            -112.128413,41.162103,0
+            -112.134217,41.16213,0
+            -112.143202,41.16213,0
+            -112.152096,41.162142,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UP Clearfield Wye</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.028643,41.109559,0
+            -112.027655,41.110238,0
+            -112.027312,41.110965,0
+            -112.027291,41.11179,0
+            -112.027462,41.112178,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UP Clearfield Wye</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.025721,41.109793,0
+            -112.026343,41.110133,0
+            -112.027116,41.110222,0
+            -112.027792,41.110003,0
+            -112.028405,41.109639,0
+            -112.028394,41.109648,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Weber-Davis County Line</name>
+        <styleUrl>#line-DB4436-2550-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.027098,41.152679,0
+            -112.043556,41.152679,0
+            -112.063769,41.152776,0
+            -112.088123,41.152695,0
+            -112.115224,41.152663,0
+            -112.141188,41.152744,0
+            -112.169083,41.15284,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Weber-Davis County Line</name>
+        <styleUrl>#icon-158-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.167921,41.152744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaysville Canning Co.</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0652246,41.1010865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0637226,41.1017656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0846653,41.0973351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1017027,41.1173186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.111659,41.0901874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beet Dump</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0430374,41.0740456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syracuse Canning Co.</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1026683,41.0918531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syracuse Resort</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1207111,41.0900595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

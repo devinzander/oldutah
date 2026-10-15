@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Utah Industrials</name>
+    <description>Locations of industry sites with locomotives.</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>OmahaTrack</name>
+        <description>Rio Tinto switching at Garfield</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1566772,40.7211768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Salt Lake Garfield & Western]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9251114,40.7693415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Terminal Switching & Service]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0022678,40.7516054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big West Oil</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9185722,40.8406728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chevron Refinery</name>
+        <description>RSSX leasers</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9207287,40.8246891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tesoro Refinery</name>
+        <description>GMTX leasers</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9054294,40.7922797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Savage Bingham & Garfield]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9064164,40.6183177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McWane Ductile</name>
+        <description>Republic RX500</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6302776,40.1958066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Carbon Development</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.4680228,39.5337198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wendover Bulk Terminal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.005599,40.7363644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clive</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.1080514,40.6920604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Spencer Peterson's Industry Switchers]]></name>
+      <Placemark>
+        <name>Circle 4 Farms</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.998215,38.388932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken Arrow Inc.</name>
+        <description>Ex USS S-6 and SSB-9; out of service since 2007</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.557828,40.680426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big West Oil LLC.</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.922016,40.841022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McWane Ductile</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.630084,40.195372,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IPP Springville Yard (Railcar Repair Center)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.638689,40.171922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Intermountain Power Plant</name>
+        <description>Ex Nevada Northern SD7</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.580252,39.511987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KGHM Robinson Mine</name>
+        <description>Truck to Rail transload facility</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -114.005132,40.735279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nucor Steel</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.196631,41.883237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Western Metals Recycling</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.200236,41.895601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Omaha Track</name>
+        <description>Interchange yard with UP</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.175989,40.743485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peterson Industrial Depot (PID)</name>
+        <description>(2) RS4TC locomotives</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -112.340527,40.530436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Railserve Inc.</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.919999,40.821523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savage Terminal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.772121,39.531304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scoular Grain</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.007933,41.216887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terminal Switching Services</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.002997,40.751711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tesoro</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.905424,40.789871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

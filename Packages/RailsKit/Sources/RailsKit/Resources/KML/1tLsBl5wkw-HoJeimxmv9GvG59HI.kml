@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tooele Valley Railway</name>
+    <description>TV Ry. completed in 1908; abandoned in 1982; site reclaimed in 1988</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-2155-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>2.155</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-2155-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>3.2325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-2155-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-2155-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-2155-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Map Details</name>
+      <Placemark>
+        <name>Mainline, Tooele to Smelter Junction</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.332888,40.525315,0
+            -112.332201,40.527533,0
+            -112.331632,40.529527,0
+            -112.331327,40.53,0
+            -112.330409,40.53051,0
+            -112.329798,40.530673,0
+            -112.328178,40.530706,0
+            -112.307267,40.530632,0
+            -112.292655,40.530624,0
+            -112.289532,40.530893,0
+            -112.287768,40.531105,0
+            -112.283369,40.531509,0
+            -112.274442,40.532479,0
+            -112.273557,40.532577,0
+            -112.272168,40.532728,0
+            -112.27139,40.532891,0
+            -112.270591,40.533123,0
+            -112.269523,40.53349,0
+            -112.267088,40.534465,0
+            -112.265232,40.535337,0
+            -112.263467,40.536104,0
+            -112.262603,40.536226,0
+            -112.261965,40.536157,0
+            -112.261251,40.535945,0
+            -112.259937,40.535345,0
+            -112.259513,40.535195,0
+            -112.259004,40.53508,0
+            -112.258472,40.535048,0
+            -112.257952,40.535105,0
+            -112.256686,40.535553,0
+            -112.255345,40.536189,0
+            -112.253559,40.536948,0
+            -112.251289,40.538358,0
+            -112.249069,40.539789,0
+            -112.24651,40.541473,0
+            -112.243908,40.542818,0
+            -112.241499,40.543589,0
+            -112.237954,40.544184,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>UP Interchange</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.33248,40.526208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WP Interchange</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.327357,40.530665,0
+            -112.328408,40.530543,0
+            -112.328854,40.530375,0
+            -112.329197,40.530114,0
+            -112.329444,40.529637,0
+            -112.329712,40.528659,0
+            -112.330935,40.523913,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>No. 11 Display</name>
+        <description>Moved to museum</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.305154,40.530934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tooele Depot</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.288696,40.531024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>International Smelter</name>
+        <description>Reclaimed in 1988</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.226071,40.552035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blast Furnace Lead</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.230878,40.546332,0
+            -112.228968,40.547416,0
+            -112.227316,40.548313,0
+            -112.226774,40.548615,0
+            -112.226479,40.549026,0
+            -112.226243,40.549581,0
+            -112.226045,40.550457,0
+            -112.225615,40.551945,0
+            -112.225079,40.55331,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>High Line</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.23783,40.54422,0
+            -112.23578,40.54462,0
+            -112.23442,40.54493,0
+            -112.23037,40.54655,0
+            -112.228432,40.547314,0
+            -112.227595,40.547661,0
+            -112.226613,40.547987,0
+            -112.225991,40.548077,0
+            -112.224821,40.548073,0
+            -112.224188,40.548244,0
+            -112.223808,40.548835,0
+            -112.223797,40.549234,0
+            -112.224028,40.549732,0
+            -112.223947,40.550412,0
+            -112.223743,40.551158,0
+            -112.223346,40.552577,0
+            -112.223207,40.552825,0
+            -112.222874,40.553278,0
+            -112.222579,40.553347,0
+            -112.222214,40.553363,0
+            -112.221898,40.553294,0
+            -112.221619,40.553204,0
+            -112.221324,40.553086,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Low Line</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.237562,40.54433,0
+            -112.236564,40.544583,0
+            -112.235395,40.54495,0
+            -112.234118,40.545504,0
+            -112.232798,40.546328,0
+            -112.231511,40.54729,0
+            -112.229698,40.549238,0
+            -112.228346,40.550869,0
+            -112.22738,40.553151,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>TV Ry. Enginehouse</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.227638,40.551814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elton Tunnel Branch</name>
+        <description>Built in 1933; tunnel opened in 1941; tunnel closed in 1948. Route from USGS 1952 maps.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.26896,40.53376,0
+            -112.26822,40.5341,0
+            -112.2673,40.53464,0
+            -112.2649138,40.5365445,0
+            -112.2636602,40.5376152,0
+            -112.2622295,40.5397901,0
+            -112.26066,40.54201,0
+            -112.26021,40.5427,0
+            -112.25969,40.54323,0
+            -112.25816,40.54457,0
+            -112.25757,40.54521,0
+            -112.2560246,40.5482138,0
+            -112.255176,40.5497329,0
+            -112.25422,40.55104,0
+            -112.24979,40.55461,0
+            -112.2471684,40.5566767,0
+            -112.2449616,40.5582276,0
+            -112.2425723,40.5597377,0
+            -112.2417194,40.5602922,0
+            -112.2412071,40.5605368,0
+            -112.2406304,40.5606183,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Elton Tunnel Site</name>
+        <description>Reclaimed in 1988</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.240351,40.560528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aerial Tramway</name>
+        <styleUrl>#line-DB4436-2155-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -112.1713113,40.5192638,0
+            -112.2016683,40.5372464,0
+            -112.2227669,40.5490916,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
