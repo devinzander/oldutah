@@ -85,9 +85,19 @@ enum Archive: String, CaseIterable, Identifiable {
 final class AppRouter {
     var tab: AppTab = .library
     var searchScope: Archive = .library
+    /// A search to run on launch; debug builds only.
+    var pendingQuery: String?
 
     init() {
         #if DEBUG
+        // `-OUSearch graves:Young` opens Search with that scope and query.
+        if let raw = UserDefaults.standard.string(forKey: "OUSearch"),
+           let colon = raw.firstIndex(of: ":"),
+           let scope = Archive(rawValue: String(raw[..<colon])) {
+            searchScope = scope
+            pendingQuery = String(raw[raw.index(after: colon)...])
+            tab = .search
+        }
         // `-OUTab railroads` opens on that tab, for simulator screenshots.
         switch UserDefaults.standard.string(forKey: "OUTab") {
         case "railroads": tab = .railroads

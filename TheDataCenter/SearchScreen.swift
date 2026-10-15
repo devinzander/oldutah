@@ -68,6 +68,12 @@ struct SearchScreen: View {
             // Clearing the field returns to the landing page.
             if text.isEmpty { submitted = "" }
         }
+        .onAppear {
+            if let q = router.pendingQuery {
+                router.pendingQuery = nil
+                pick(q)
+            }
+        }
     }
 
     @ViewBuilder

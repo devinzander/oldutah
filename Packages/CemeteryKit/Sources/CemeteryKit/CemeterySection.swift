@@ -18,7 +18,12 @@ public final class CemeteryKitStores {
     let plats = PlatStore()
     let location = LocationStore()
 
-    public init() {}
+    public init() {
+        #if DEBUG
+        // `-OUMap 1` opens on the plat map, for simulator screenshots.
+        if UserDefaults.standard.bool(forKey: "OUMap") { router.mapPresented = true }
+        #endif
+    }
 
     /// Called when a screen asks to search one cemetery; the host switches
     /// to its search tab with graves in scope.
